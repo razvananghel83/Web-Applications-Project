@@ -3,44 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Data\\Migrations\\20241129084045_CreateTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProiectASP\\Data\\Migrations\\20241129084045_CreateTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\proiectasp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\proiectasp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Data\\Migrations\\20241129094631_UserRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProiectASP\\Data\\Migrations\\20241129094631_UserRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\models\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\models\\usergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\usergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,129 +47,103 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241129084045_CreateTables.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Data\\Migrations\\20241129084045_CreateTables.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Data\\Migrations\\20241129084045_CreateTables.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Data\\Migrations\\20241129084045_CreateTables.cs",
-              "RelativeToolTip": "ProiectASP\\Data\\Migrations\\20241129084045_CreateTables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "ProiectASP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAUwH0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:40:45.628Z",
+              "WhenOpened": "2024-11-29T09:48:29.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ProiectASP\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:36:47.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Comment.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Models\\Comment.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Comment.cs",
-              "RelativeToolTip": "ProiectASP\\Models\\Comment.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:29:32.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Conversation.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Conversation.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Models\\Conversation.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Conversation.cs",
-              "RelativeToolTip": "ProiectASP\\Models\\Conversation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:29:22.932Z",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ProiectASP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "ProiectASP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T09:48:22.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Follow.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Follow.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Models\\Follow.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Follow.cs",
-              "RelativeToolTip": "ProiectASP\\Models\\Follow.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:29:13.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Like.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Like.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Models\\Like.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Like.cs",
-              "RelativeToolTip": "ProiectASP\\Models\\Like.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:29:01.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Message.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Models\\Message.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Message.cs",
-              "RelativeToolTip": "ProiectASP\\Models\\Message.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:28:52.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserGroup.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\UserGroup.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Models\\UserGroup.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\UserGroup.cs",
-              "RelativeToolTip": "ProiectASP\\Models\\UserGroup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:28:18.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Profile.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Models\\Profile.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\Profile.cs",
-              "RelativeToolTip": "ProiectASP\\Models\\Profile.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAASwBEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:22:52.473Z",
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ProiectASP\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ProiectASP\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-29T09:48:15.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ProiectASP",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\ProiectASP.csproj",
+              "RelativeDocumentMoniker": "ProiectASP\\ProiectASP.csproj",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\ProiectASP.csproj*",
+              "RelativeToolTip": "ProiectASP\\ProiectASP.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T09:46:54.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241129094631_UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Data\\Migrations\\20241129094631_UserRoles.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Data\\Migrations\\20241129094631_UserRoles.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Data\\Migrations\\20241129094631_UserRoles.cs",
+              "RelativeToolTip": "ProiectASP\\Data\\Migrations\\20241129094631_UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:46:31.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ProiectASP\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ProiectASP\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T09:45:04.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProiectASP\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:42:39.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "ProiectASP\\Models\\ApplicationUser.cs",
               "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "ProiectASP\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T07:12:57.997Z",
               "EditorCaption": ""
