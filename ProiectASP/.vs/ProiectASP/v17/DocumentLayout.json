@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\ProiectASP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\proiectasp\\proiectasp\\data\\migrations\\20241129084045_createtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\data\\migrations\\20241129084045_createtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\proiectasp\\proiectasp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\proiectasp\\proiectasp\\models\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\proiectasp\\proiectasp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\proiectasp\\proiectasp\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\proiectasp\\proiectasp\\models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\proiectasp\\proiectasp\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\proiectasp\\proiectasp\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\proiectasp\\proiectasp\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\proiectasp\\proiectasp\\models\\usergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\usergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1099,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241129084045_CreateTables.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Data\\Migrations\\20241129084045_CreateTables.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Data\\Migrations\\20241129084045_CreateTables.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Data\\Migrations\\20241129084045_CreateTables.cs",
+              "RelativeToolTip": "ProiectASP\\Data\\Migrations\\20241129084045_CreateTables.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:40:45.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProiectASP\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:36:47.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Comment.cs",
+              "RelativeToolTip": "ProiectASP\\Models\\Comment.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:29:32.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Conversation.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Conversation.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Models\\Conversation.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Conversation.cs",
+              "RelativeToolTip": "ProiectASP\\Models\\Conversation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:29:22.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Follow.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Follow.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Models\\Follow.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Follow.cs",
+              "RelativeToolTip": "ProiectASP\\Models\\Follow.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:29:13.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Like.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Like.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Models\\Like.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Like.cs",
+              "RelativeToolTip": "ProiectASP\\Models\\Like.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:29:01.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Message.cs",
+              "RelativeToolTip": "ProiectASP\\Models\\Message.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:28:52.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserGroup.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\UserGroup.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Models\\UserGroup.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\UserGroup.cs",
+              "RelativeToolTip": "ProiectASP\\Models\\UserGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:28:18.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Models\\Profile.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\Profile.cs",
+              "RelativeToolTip": "ProiectASP\\Models\\Profile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwBEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:22:52.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "ProiectASP\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:12:57.997Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1099,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1099,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
