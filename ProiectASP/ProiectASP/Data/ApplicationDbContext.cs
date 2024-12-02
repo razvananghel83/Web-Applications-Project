@@ -12,10 +12,17 @@ namespace ProiectASP.Data
         }
 
 
-        //public DbSet<ApplicationUser> Users { get; set; }
-        //public DbSet<Group> Groups { get; set; }
-        //public DbSet<UserGroup> UserGroups { get; set; }
-        //public DbSet<Follow> Follows { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<Conversation> Conversations { get; set; }
+        public DbSet<Follow> Follows { get; set; }
+        public DbSet<Group> Groups { get; set; }
+        public DbSet<Like> Likes { get; set; }
+        public DbSet<Message> Messages { get; set; }
+        public DbSet<Post> Posts { get; set; }
+        public DbSet<Profile> Profiles { get; set; }
+        public DbSet<UserGroup> UserGroups { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
