@@ -6,14 +6,15 @@ namespace ProiectASP.Models
     {
         [Key]
         public int Id { get; set; }
-    
-        public string Name { get; set; }
 
+        [Required(ErrorMessage = "The group name is required.")]
+        public string Name { get; set; }
+        [Required(ErrorMessage = "The description is required.")]
         public string Description { get; set; }
 
-        public string Image { get; set; }
-        
-        public int ModeratorId { get; set; }
+        public string? Image { get; set; }
+
+        public string? ModeratorId { get; set; }
 
         // many (postari) - one (grup)
 

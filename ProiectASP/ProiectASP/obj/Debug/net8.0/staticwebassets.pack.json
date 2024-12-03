@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\5215c9149dcd19781fdabae877dfefaa.jpg",
+      "PackagePath": "staticwebassets\\images\\5215c9149dcd19781fdabae877dfefaa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\default_group_pic.png",
+      "PackagePath": "staticwebassets\\images\\default_group_pic.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\e49231f2faa14aa83721fc132dc6a1a3.jpg",
+      "PackagePath": "staticwebassets\\images\\e49231f2faa14aa83721fc132dc6a1a3.jpg"
+    },
+    {
       "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

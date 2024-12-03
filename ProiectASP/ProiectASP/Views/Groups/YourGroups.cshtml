@@ -1,0 +1,31 @@
+﻿
+@if(ViewBag.Count == 0)
+{
+    <div>
+        You haven't made any groups
+    </div>
+}
+
+@foreach (var g in ViewBag.Groups)
+{
+    <div class="card">
+
+
+        <div class="card-body">
+
+            <h3 class="card-title alert-success py-3 px-3 rounded-2">@g.Name</h3>
+
+            <div class="card-text">@g.Description</div>
+
+            <img src="@g.Image" alt="Group Image" style="width: 50px; height: 50px; object-fit: cover" />
+        </div>
+        <a class="btn btn-success" asp-controller="Groups"
+           asp-action="Delete" asp-route-id="@g.Id">Delete group</a>
+        <a class="btn btn-success" asp-controller="Groups"
+           asp-action="Edit" asp-route-id="@g.Id">Edit group</a>
+
+    </div>
+
+    <br />
+    <br />
+}
