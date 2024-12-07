@@ -50,16 +50,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEFsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Groups/AllRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEFsbFJlcXVlc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Groups/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Groups/EditShow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEVkaXRTaG93LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Groups/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Groups/JoinRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEpvaW5SZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Groups/Members.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXE1lbWJlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Groups/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXE5ldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Groups/PendingRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXFBlbmRpbmdSZXF1ZXN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Groups/Show.cshtml]

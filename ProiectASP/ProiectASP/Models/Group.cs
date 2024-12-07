@@ -16,6 +16,7 @@ namespace ProiectASP.Models
 
         public string? ModeratorId { get; set; }
 
+
         // many (postari) - one (grup)
 
         public virtual ICollection<Post>? Posts { get; set; }

@@ -1,16 +1,16 @@
-﻿@if (ViewBag.Message != null)
+﻿@model ProiectASP.Models.UserGroup
+
+
+@if (ViewBag.Message != null)
 {
     <div class="alert-success p-3 rounded-3 text-center mb-5 @ViewBag.Alert">
         @ViewBag.Message
     </div>
 }
 
-<h2>Your groups</h2>
+<h2>Other groups</h2>
 <br />
-<a class="btn btn-success" asp-controller="Groups" asp-action="Index" >Back</a>
-
-<a class="btn btn-success" asp-controller="Groups"
-   asp-action="New">Create group</a>
+<a class="btn btn-success" asp-controller="Groups" asp-action="Show" asp-route-id="@ViewBag.GroupID">Back</a>
 
 <br />
 <br />
@@ -32,31 +32,31 @@
     </div>
 }
 
-@foreach (var g in ViewBag.Groups)
+@foreach (var u in ViewBag.users)
 {
     <div class="card">
 
 
         <div class="card-body">
 
-            <h3 class="card-title alert-success py-3 px-3 rounded-2">@g.Name</h3>
+            <h3 class="card-title alert-success py-3 px-3 rounded-2">@u.User.UserName</h3>
 
-            <div class="card-text">@g.Description</div>
+            @if (ViewBag.Moderator == true && ViewBag.ModeratorId !=u.User.Id)
+            {
+                <form method="post" asp-action="Remove" asp-controller="Groups">
 
-            <img src="@g.Image" alt="Group Image" style="width: 50px; height: 50px; object-fit: cover" />
-        </div>
+                    <input type="hidden" name="UserId" value="@u.User.Id" />
 
-        <div class="d-flex flex-row justify-content-between">
+                    <input type="hidden" name="GroupId" value="@ViewBag.GroupId" />
 
-            <a class="btn btn-success" asp-controller="Groups" asp-action="Edit" asp-route-id="@g.Id"> Edit Group</a>
-
-
-            <a class="btn btn-success" asp-controller="Groups" asp-action="Delete" asp-route-id="@g.Id">Delete group</a>
-
-            <a class="btn btn-success" asp-controller="Groups" asp-action="JoinRequests" asp-route-id="@g.Id">Join Requests</a>
+                    <button class="btn btn-success" type="submit">Remove</button>
+                </form>
+            }
 
 
         </div>
+
+
         <br />
 
     </div>
