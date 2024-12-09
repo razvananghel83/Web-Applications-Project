@@ -6,12 +6,23 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ProiectASP.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class AddedDateImageToPost : Migration
+    public partial class RecreateProject : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.AddColumn<DateTime>(
+                name: "Date",
+                table: "Posts",
+                type: "datetime2",
+                nullable: false,
+                defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
 
+            migrationBuilder.AddColumn<string>(
+                name: "Image",
+                table: "Posts",
+                type: "nvarchar(max)",
+                nullable: true);
         }
 
         /// <inheritdoc />

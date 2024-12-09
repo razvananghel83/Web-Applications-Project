@@ -11,7 +11,7 @@ namespace ProiectASP.Models
 
         public string Content { get; set; }
 
-        public string? Image {  get; set; }
+        public string? Image { get; set; }
 
         // many ( posts ) - one ( user )
         public string? UserId { get; set; }

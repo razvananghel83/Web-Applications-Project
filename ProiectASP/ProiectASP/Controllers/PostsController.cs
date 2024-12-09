@@ -131,7 +131,7 @@ namespace ProiectASP.Controllers
                 ModelState.Remove(nameof(post.Image));
                 post.Image = databaseFileName;
             }
-          
+
             // daca nu am bagat imagine, ia pe aia default!
 
             if (ModelState.IsValid)
@@ -155,6 +155,8 @@ namespace ProiectASP.Controllers
             }
 
         }
+
+
     }
 
 
