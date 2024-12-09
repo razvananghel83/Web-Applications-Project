@@ -1,0 +1,47 @@
+﻿<h2 class="text-center">Afisare postari</h2>
+
+<br />
+
+@if (ViewBag.Message != null)
+{
+
+    <h2 class="alert-success p-3 rounded-3 text-center mb-5">@ViewBag.Message</h2>
+}
+
+<div class="d-flex justify-content-center">
+
+    <a class="btn btn-outline-success" href="/Posts/New">Adauga postare</a>
+    <br />
+
+</div>
+
+<br />
+
+
+@foreach (var Post in ViewBag.Posts)
+{
+    <div class="card">
+
+
+        <div class="card-body">
+
+            <h3 class="card-title alert-success py-3 px-3 rounded-2">@Post.Content</h3>
+
+        </div>
+
+        @if (Post.Image != null )
+        {
+                <div>
+                    <img src="@Post.Image" alt="Post Image" style="width: 50px; height: 50px; object-fit: cover" />
+
+                </div>
+        }
+
+
+
+
+    </div>
+
+    <br  />
+    <br  />
+}

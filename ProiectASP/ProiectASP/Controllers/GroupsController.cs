@@ -55,7 +55,7 @@ namespace ProiectASP.Controllers
 
                 if(!allowedExtensions.Contains(fileExtension))
                 {
-                    ModelState.AddModelError("ArticleImage", "The file needs to be a jpg, jpeg or png.");
+                    ModelState.AddModelError("GroupImage", "The file needs to be a jpg, jpeg or png.");
                     return View(group);
                 }
 

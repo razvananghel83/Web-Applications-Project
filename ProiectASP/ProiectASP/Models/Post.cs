@@ -7,9 +7,11 @@ namespace ProiectASP.Models
         [Key]
         public int Id { get; set; }
 
+        public DateTime Date { get; set; }
 
         public string Content { get; set; }
 
+        public string? Image {  get; set; }
 
         // many ( posts ) - one ( user )
         public string? UserId { get; set; }
