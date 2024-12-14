@@ -7,8 +7,12 @@ namespace ProiectASP.Models
         [Key]
         public int Id { get; set; }
         
-        public string Username { get; set; }
         public string Description { get; set; }
+
+        public DateTime DateOfBirth { get; set; }
+
+
+        public string ProfileImage {  get; set; }
 
         public bool IsPrivate { get; set; }
 

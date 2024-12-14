@@ -5,7 +5,7 @@ namespace ProiectASP.Models
     public class Follow
     {
 
-        public int Status { get; set; }
+        public bool? Status { get; set; }
 
         //many(users) - many(users) prin follow
         // un user are mai multi urmaritori

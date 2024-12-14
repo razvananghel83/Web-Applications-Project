@@ -18,12 +18,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using ProiectASP.Data;
 using ProiectASP.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ProiectASP.Areas.Identity.Pages.Account
 {
     public class RegisterModel : PageModel
     {
+        private readonly ApplicationDbContext db;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IUserStore<ApplicationUser> _userStore;
@@ -32,12 +35,14 @@ namespace ProiectASP.Areas.Identity.Pages.Account
         private readonly IEmailSender _emailSender;
 
         public RegisterModel(
+            ApplicationDbContext context,
             UserManager<ApplicationUser> userManager,
             IUserStore<ApplicationUser> userStore,
             SignInManager<ApplicationUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender)
         {
+            db=context;
             _userManager = userManager;
             _userStore = userStore;
             _emailStore = GetEmailStore();
@@ -75,6 +80,12 @@ namespace ProiectASP.Areas.Identity.Pages.Account
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
+            /// 
+
+            [Required]
+            [Display(Name = "Username")]
+            public string UserName { get; set; }
+
             [Required]
             [EmailAddress]
             [Display(Name = "Email")]
@@ -111,11 +122,25 @@ namespace ProiectASP.Areas.Identity.Pages.Account
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
+
+            var usersUsernames = db.ApplicationUsers.Where(u => u.NormalizedUserName == Input.UserName.ToUpper());
+            var usersEmails = db.ApplicationUsers.Where(u => u.NormalizedEmail == Input.Email.ToUpper());
+            if (usersUsernames.Count() > 0)
+            {
+
+                ModelState.AddModelError(string.Empty,"There is another user with this username. Try a different one.");
+            }
+            if (usersEmails.Count() > 0)
+            {
+                ModelState.AddModelError(string.Empty, "There already is an user with this email.");
+            }
             if (ModelState.IsValid)
             {
+
                 var user = CreateUser();
 
-                await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
+                await _userStore.SetUserNameAsync(user, Input.UserName, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
 

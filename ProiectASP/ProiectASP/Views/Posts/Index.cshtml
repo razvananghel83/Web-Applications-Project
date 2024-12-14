@@ -35,8 +35,19 @@
                     <img src="@Post.Image" alt="Post Image" style="width: 50px; height: 50px; object-fit: cover" />
 
                 </div>
+
+          
+
+           
         }
 
+        <div class="d-flex justify-content-center">
+
+            <a class="btn btn-success" asp-controller="Posts" asp-action="Edit" asp-route-id="@Post.Id">Editeaza articol</a>
+            <br />
+
+            <a class="btn btn-success" asp-controller="Posts" asp-action="Show" asp-route-id="@Post.Id">Afisare articol</a>
+            </div>
 
 
 

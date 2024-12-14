@@ -1,0 +1,47 @@
+﻿@if (ViewBag.Message != null)
+{
+    <div class="alert-success p-3 rounded-3 text-center mb-5 @ViewBag.Alert">
+        @ViewBag.Message
+    </div>
+}
+
+<h2>Followers</h2>
+
+
+@* Motorul de cautare *@
+<form method="GET">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search topics or keywords" name="search"
+               value="@ViewBag.Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </div>
+</form>
+
+@if (ViewBag.Number == 0 && ViewBag.Search == "")
+{
+    <div class="alert-success p-3 rounded-3 text-center mb-5">
+        you have no followers :')
+    </div>
+}
+
+@foreach (var u in ViewBag.followers)
+{
+    <div class="col-4 mb-4">
+
+
+        <div class="card" style="height:100%; width: 100%;">
+
+            <p><i class="bi bi-person"> </i> UserName: @u.UserName</p>
+
+        </div>
+
+
+        <br />
+
+    </div>
+
+    <br />
+    <br />
+}
+
+
