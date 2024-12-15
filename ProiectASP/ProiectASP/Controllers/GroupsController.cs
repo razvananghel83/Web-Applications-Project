@@ -197,7 +197,7 @@ namespace ProiectASP.Controllers
                 ViewBag.Moderator = true;
             else
                 ViewBag.Moderator = false;
-
+            ViewBag.Posts = db.Posts.Where(p =>p.GroupId == id);
             return View(group);
         }
 
@@ -830,6 +830,81 @@ namespace ProiectASP.Controllers
         //    return Redirect(refererUrl);
         //}
 
+
+        public IActionResult AddPost(int? id)
+        {
+            var user = _userManager.GetUserId(User);
+
+            var members = db.UserGroups.Where(ug => ug.GroupId == id).Select(ug => ug.UserId);
+            if(!members.Contains(user))
+            {
+
+                TempData["message"] = "You can not post in this group.";
+                TempData["messageType"] = "alert-danger";
+                return RedirectToAction("Index");
+            }
+
+            ViewBag.GroupId = id;
+            Post post = new Post();
+
+
+            return View(post);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddPost([FromForm] Post post, IFormFile? Image)
+        {
+            post.Date = DateTime.Now;
+            // adaug imaginea in folder si in tabel
+            //post.Image = "/images/" + "default_group_pic.png"; //img default
+
+            if (Image != null && Image.Length > 0)
+            {
+
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".mp4", ".mov" };
+
+                var fileExtension = Path.GetExtension(Image.FileName).ToLower();
+
+                if (!allowedExtensions.Contains(fileExtension))
+                {
+                    ModelState.AddModelError("PostImage", "The file needs to be a jpg, jpeg  ,png ,.gif .mp4 .mov");
+                    return View(post);
+                }
+
+                var storagePath = Path.Combine(_env.WebRootPath, "images", Image.FileName);
+                var databaseFileName = "/images/" + Image.FileName;
+
+                using (var fileStream = new FileStream(storagePath, FileMode.Create))
+                {
+                    await Image.CopyToAsync(fileStream);
+                }
+                ModelState.Remove(nameof(post.Image));
+                post.Image = databaseFileName;
+            }
+
+            // daca nu am bagat imagine, ia pe aia default!
+
+            if (ModelState.IsValid)
+            {
+                var userId = _userManager.GetUserId(User);
+                post.UserId = userId;
+                db.Posts.Add(post);
+                db.SaveChanges();
+
+
+
+                TempData["message"] = "The post has been created.";
+                TempData["messageType"] = "alert-success";
+                return RedirectToAction("Shpw", new {post.GroupId});
+
+            }
+            else
+            {
+                return View(post);
+            }
+
+
+        }
         public IActionResult PendingRequests()
         {
 

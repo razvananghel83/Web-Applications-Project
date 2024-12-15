@@ -24,9 +24,9 @@
 
 @foreach(var m in ViewBag.Messages)
 {
-    <p>@ViewBag.Users.Find(m.UserId).UserName</p>
-    <p>m.Content</p>
-    <p>m.Date</p>
+    <p>@m.User.UserName</p>
+    <p>@m.Content</p>
+    <p>@m.Date</p>
 }
 
 
@@ -40,7 +40,7 @@
 
             <div class="card">
 
-                <form method="post" asp-controller="Message" asp-action="Add">
+                <form method="post" asp-controller="Messages" asp-action="Add">
 
                     <div class="card-body">
 

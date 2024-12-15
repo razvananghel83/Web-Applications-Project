@@ -1,0 +1,44 @@
+﻿@if (ViewBag.Message != null)
+{
+    <div class="alert-success p-3 rounded-3 text-center mb-5 @ViewBag.Alert">
+        @ViewBag.Message
+    </div>
+}
+
+<br />
+<br />
+
+@if (ViewBag.Count == 0)
+{
+    <div>
+        You have no conversations.
+    </div>
+}
+
+@foreach (var c in ViewBag.Conversations)
+{
+    <div class="card">
+
+
+        <div class="card-body">
+
+                @foreach(var u in c.Users)
+                {
+                    <p>@u.UserName</p>
+                }
+
+
+            <a class="btn btn-success" asp-controller="Conversations" asp-action="Index" asp-route-id="@c.Id">Show</a>
+
+        </div>
+
+
+        <br />
+
+    </div>
+
+    <br />
+    <br />
+}
+
+

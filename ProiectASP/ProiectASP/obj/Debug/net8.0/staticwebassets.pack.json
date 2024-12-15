@@ -49,8 +49,20 @@
       "PackagePath": "staticwebassets\\images\\illumi.jpg"
     },
     {
+      "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker jinx.png",
+      "PackagePath": "staticwebassets\\images\\sticker jinx.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker lumine.png",
+      "PackagePath": "staticwebassets\\images\\sticker lumine.png"
+    },
+    {
       "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker pusheen sleep.png",
       "PackagePath": "staticwebassets\\images\\sticker pusheen sleep.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker sanji.png",
+      "PackagePath": "staticwebassets\\images\\sticker sanji.png"
     },
     {
       "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\tighnari.png",

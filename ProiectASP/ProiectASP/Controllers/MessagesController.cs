@@ -37,7 +37,7 @@ namespace ProiectASP.Controllers
             db.Messages.Add( mesaj );
             db.SaveChanges();
 
-            return RedirectToAction("Index", "Conversations", new {id = mesaj.ConversationId});
+            return RedirectToAction("Index", "Conversations", new { mesaj.ConversationId});
         }
 
     }

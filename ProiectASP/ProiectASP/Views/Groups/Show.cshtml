@@ -28,7 +28,35 @@
 
 }
 
+
+<a class="btn btn-success" asp-controller="Groups" asp-action="AddPost" asp-route-id="@Model.Id">Add Post</a>
+
 <div class="card">
     Posts:
 </div>
 
+@foreach(var p in ViewBag.Posts)
+{
+    <div class="card">
+
+        <div class="card-body">
+
+            <h3 class="card-title alert-success py-3 px-3 rounded-2">@p.Content</h3>
+
+        </div>
+
+        @if (@p.Image != null)
+        {
+            <div>
+                <img src="@p.Image" alt="Post Image" style="width: 50px; height: 50px; object-fit: cover" />
+
+            </div>
+
+
+
+
+        }
+
+
+    </div>
+}

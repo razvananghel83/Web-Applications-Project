@@ -72,7 +72,7 @@ namespace ProiectASP.Controllers
         public IActionResult New()
         {
             Post post = new Post();
-
+            ViewBag.GroupId = null;
 
             return View(post);
         }
@@ -139,7 +139,6 @@ namespace ProiectASP.Controllers
             {
                 var userId = _userManager.GetUserId(User);
                 post.UserId = userId;
-                post.GroupId = null;
                 db.Posts.Add(post);
                 db.SaveChanges();
 
