@@ -146,12 +146,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Posts/IndexOld.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXhPbGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Posts/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcTmV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Posts/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcU2hvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Posts/ShowOld.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcU2hvd09sZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Profiles/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZXNcTmV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/andre/Desktop/FMI/AN 2/SEM I/ASP/Proiect/ProiectASP/ProiectASP/Views/Shared/Error.cshtml]

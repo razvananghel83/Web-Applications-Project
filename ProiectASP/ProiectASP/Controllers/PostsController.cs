@@ -31,9 +31,13 @@ namespace ProiectASP.Controllers
         {
             // var Posts = db.Posts.Include("User");
             //in http : post.user.UserName
-            var Posts = db.Posts.Include("User");
+            var Posts = db.Posts.Include("User").Include("User.Profile");
             // ViewBag.OriceDenumireSugestiva
             ViewBag.Posts = Posts;
+
+
+            ViewBag.EsteAdmin = User.IsInRole("Admin");
+            ViewBag.UserId = _userManager.GetUserId(User);
 
             if (TempData.ContainsKey("message"))
             {
@@ -240,12 +244,13 @@ namespace ProiectASP.Controllers
             Post post = db.Posts.Include("Comments")
                                          .Include("User")
                                          .Include("Comments.User")
+                                         .Include("Comments.User.Profile")
                               .Where(post => post.Id == id)
                               .First();
 
             ViewBag.EsteAdmin = User.IsInRole("Admin");
             ViewBag.UserId = _userManager.GetUserId(User);
-
+            ViewBag.Profile = db.Profiles.Where(profile => profile.UserId == post.UserId).FirstOrDefault();
             return View(post);
         }
 

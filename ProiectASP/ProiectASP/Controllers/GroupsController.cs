@@ -895,7 +895,8 @@ namespace ProiectASP.Controllers
 
                 TempData["message"] = "The post has been created.";
                 TempData["messageType"] = "alert-success";
-                return RedirectToAction("Shpw", new {post.GroupId});
+                var ID = post.GroupId;
+                return RedirectToAction("Show", new { id=ID });
 
             }
             else

@@ -1,125 +1,138 @@
 ﻿@model ProiectASP.Models.Post
 
-
-
-@* Afisarea unui articol impreuna cu categoria din care face *@
-
-<br />
-
-<div class="card">
-
-    <partial name="PostInfo" model="Model"></partial>
-
-    
-        <div class="d-flex flex-row justify-content-between">
-
-        @if (@Model.UserId == ViewBag.UserId || ViewBag.EsteAdmin == true)
-            {
-
-                    <a class="btn btn-success" asp-controller="Posts" asp-action="Edit" asp-route-id="@Model.Id">Editeaza articol</a>
-
-                    <form method="post" asp-controller="Posts" asp-action="Delete" asp-route-id="@Model.Id">
-
-                        <button class="btn btn-danger" type="submit">Sterge articol</button>
-
-                    </form>
-            }
-        </div>
-    
-
-
-</div>
-
-<br />
-<br />
-
-@* Afisare comentarii impreuna cu butoanele de editare si stergere *@
-
-@foreach (var comm in Model.Comments)
-{
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2"></div>
-
-            <div class="col-md-8">
-
-                <div>
-
-                    <p>@comm.Content</p>
-                    <small>@comm.Date</small>
-                    <strong><i class="bi bi-person"> @comm.User.UserName</i></strong>
-
-                </div>
-                <br>
-
-                @if (comm.UserId == ViewBag.UserId || ViewBag.EsteAdmin == true)
+<div class="d-flex flex-column align-items-center" >
+    <div>
+        <div class="d-flex flex-row gap-2">
+            <img src="@ViewBag.Profile.ProfileImage" alt="profile image" class="rounded-circle"
+                 style="width:50px; height:50px; " />
+            <div style="height: 50px; display: flex; align-items: center;"><b>@Model.User.UserName</b></div>
+            <div style="margin-left:auto;">
+                @if (@Model.UserId == ViewBag.UserId || ViewBag.EsteAdmin == true)
                 {
-                    <div class="d-flex">
-                        <div>
-                            <a class="btn btn-outline-primary" asp-controller="Comments" asp-action="Edit" asp-route-id="@comm.Id">
-                                <i class="bi bi-pencil-square"></i> Editeaza
-                            </a>
 
-                        </div>
-                        <div>
-                            <form method="post" asp-controller="Comments" asp-action="Delete" asp-route-id="@comm.Id">
+                    <div class="dropdown ">
+                        <button class="btn rounded-circle dropdown" type="button" id="dropdownPostButton" 
+                                data-bs-toggle="dropdown" aria-expanded="false" >
+                            
+                             <b>...</b>
+                        </button>
 
-                                <button class="btn btn-outline-danger" type="submit"><i class="bi bi-trash"></i>Sterge</button>
 
-                            </form>
-                        </div>
+                        <ul class="dropdown-menu  flex-column gap-1 p-1" style="min-width: max-content;"  
+                                        aria-labelledby="dropdownPostButton">
+                            <li>
+                                <a class="btn " asp-controller="Posts" asp-action="Edit" asp-route-id="@Model.Id">Edit article</a>
+                            </li>
+                            <li>
+
+                                <form method="post" asp-controller="Posts" asp-action="Delete" asp-route-id="@Model.Id">
+
+                                    <button class="btn btn-outline-danger" type="submit">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                            <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                        </svg>Delete
+                                    </button>
+
+                                </form>
+                            </li>
+                        </ul>
                     </div>
+                
+                
                 }
 
-                <br />
             </div>
-
-            <div class="col-md-2"></div>
-
         </div>
+        <br />
 
-    </div>
-}
+        <div class="card" style="width: 30rem;">
+            <div class="card-body">
+                <p class="card-text">@Model.Content</p>
+            </div>
+            @if (Model.Image != null)
+            {
+                <img src="@Model.Image" alt="post image" />
+            }
+        </div>
+        <div class="card p-1" style="width:30rem">
+            <div class="d-flex flex-row">
+                <p>@Model.Date</p>
+                <button class="btn btn-outline-danger rounded-circle" style="margin-left:auto;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <br />
+            <form method="post" asp-controller="Posts" asp-action="Show" class="card d-flex flex-row gap-2 p-2" >
+
+                <div class="card-body" style="border:none">
+
+                    <input type="hidden" name="PostId" value="@Model.Id" />
+
+                    <textarea class="form-control" name="Content" placeholder="Post a comment" 
+                        style="height:auto; overflow-y:hidden; resize:vertical" ></textarea>
+                    <span asp-validation-for="Content" class="text-danger"></span>
 
 
-@* Afisarea formularului in care se poate adauga un comentariu *@
+                </div>
+                <div style="display:flex;align-items:center;">
+                    <button class="btn btn-success" type="submit">Post</button>
+                </div>
+            </form>
 
-<div class="container">
 
-    <div class="row">
+        <div>
+            @*COMENTARII*@
+            @foreach (var comm in @Model.Comments)
+            {
+                <div class="card d-flex flex-row gap-2 p-2">
+                    <img src="@comm.User.Profile.ProfileImage" alt="profile image" class="rounded-circle"
+                     style="width:50px; height:50px; " />
+                  
+                    <div>
+                        <div class="d-flex flex-row ">
+                            <div ><b>@comm.User.UserName</b></div>
+                            <div style="margin-left:auto;">
+                                @if (comm.UserId == ViewBag.UserId || ViewBag.EsteAdmin == true)
+                                {
+                                    <div class="dropdown ">
+                                        <button class="btn rounded-circle dropdown" type="button" id="dropdownPostButton"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
 
-        <div class="col-md-2"></div>
+                                            <b>...</b>
+                                        </button>
 
-        <div class="col-md-8">
 
-            <div class="card">
+                                        <ul class="dropdown-menu  flex-column gap-1 p-1" style="min-width: max-content;"
+                                        aria-labelledby="dropdownPostButton">
+                                            <li>
+                                                <a class="btn " asp-controller="Comments" asp-action="Edit" asp-route-id="@comm.Id">Edit comment</a>
+                                            </li>
+                                            <li>
 
-                <form method="post" asp-controller="Posts" asp-action="Show">
+                                                <form method="post" asp-controller="Comments" asp-action="Delete" asp-route-id="@comm.Id">
 
-                    <div class="card-body">
+                                                    <button class="btn btn-outline-danger" type="submit">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                                            <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                                        </svg>Delete
+                                                    </button>
+                                            
 
-                        <input type="hidden" name="PostId" value="@Model.Id" />
-
-                        <label>Continut comentariu</label>
-                        <br />
-
-                        <textarea class="form-control" name="Content"></textarea>
-
-                        <span asp-validation-for="Content" class="text-danger"></span>
-                        <br /><br />
-
-                        <button class="btn btn-success" type="submit">Adauga comentariul</button>
-
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                }   
+                            </div>
+                        </div>
+                        <div style="width:28rem;">@comm.Content</div>
                     </div>
-
-                </form>
-
-            </div>
-
+                </div>
+            }
         </div>
-
-        <div class="col-md-2"></div>
-
     </div>
 
 </div>

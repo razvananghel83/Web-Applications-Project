@@ -118,6 +118,11 @@ namespace ProiectASP.Areas.Identity.Pages.Account
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
                 var username = db.ApplicationUsers.Where(u => u.NormalizedEmail == Input.Email.ToUpper()).Select(u => u.UserName).FirstOrDefault();
 
+                if (username == null) 
+                {
+                    username = "";
+                }
+
                 var result = await _signInManager.PasswordSignInAsync(username, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
