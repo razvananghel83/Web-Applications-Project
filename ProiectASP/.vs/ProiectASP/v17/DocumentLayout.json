@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\views\\groups\\joinrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\groups\\joinrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\views\\groups\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\groups\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\views\\groups\\joinrequestsold.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\groups\\joinrequestsold.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\views\\groups\\yourgroupsold.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\groups\\yourgroupsold.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\views\\groups\\pendingrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\groups\\pendingrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\views\\follows\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\follows\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\views\\posts\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\posts\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\fmi\\an 2\\sem i\\asp\\proiect\\proiectasp\\proiectasp\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,19 +47,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Posts\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProiectASP\\Views\\Posts\\Index.cshtml",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Posts\\Index.cshtml",
-              "RelativeToolTip": "ProiectASP\\Views\\Posts\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProiectASP\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProiectASP\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-03T13:07:02.289Z",
+              "WhenOpened": "2025-01-04T10:23:13.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "JoinRequests.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Groups\\JoinRequests.cshtml",
+              "RelativeDocumentMoniker": "ProiectASP\\Views\\Groups\\JoinRequests.cshtml",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Groups\\JoinRequests.cshtml",
+              "RelativeToolTip": "ProiectASP\\Views\\Groups\\JoinRequests.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T10:09:30.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PendingRequests.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Groups\\PendingRequests.cshtml",
+              "RelativeDocumentMoniker": "ProiectASP\\Views\\Groups\\PendingRequests.cshtml",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Groups\\PendingRequests.cshtml",
+              "RelativeToolTip": "ProiectASP\\Views\\Groups\\PendingRequests.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T09:32:44.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "ProiectASP\\Controllers\\GroupsController.cs",
+              "ViewState": "AgIAAKIBAAAAAAAAAAAIwLYBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:23:58.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Groups\\Show.cshtml",
+              "RelativeDocumentMoniker": "ProiectASP\\Views\\Groups\\Show.cshtml",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Groups\\Show.cshtml",
+              "RelativeToolTip": "ProiectASP\\Views\\Groups\\Show.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T08:17:59.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AllUsers.cshtml",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Follows\\AllUsers.cshtml",
               "RelativeDocumentMoniker": "ProiectASP\\Views\\Follows\\AllUsers.cshtml",
@@ -51,34 +118,7 @@
               "RelativeToolTip": "ProiectASP\\Views\\Follows\\AllUsers.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-03T14:55:19.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PostsController.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Controllers\\PostsController.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Controllers\\PostsController.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Controllers\\PostsController.cs",
-              "RelativeToolTip": "ProiectASP\\Controllers\\PostsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T13:09:47.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Show.cshtml",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Posts\\Show.cshtml",
-              "RelativeDocumentMoniker": "ProiectASP\\Views\\Posts\\Show.cshtml",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Posts\\Show.cshtml",
-              "RelativeToolTip": "ProiectASP\\Views\\Posts\\Show.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-03T12:27:16.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T14:55:19.105Z"
             }
           ]
         },
@@ -103,6 +143,53 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "3150a809-d036-449f-bd00-5611de83a402",
+        "Display": 0,
+        "X": -631,
+        "Y": 229,
+        "Width": 1350,
+        "Height": 558,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "YourGroupsOld.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Groups\\YourGroupsOld.cshtml",
+              "RelativeDocumentMoniker": "ProiectASP\\Views\\Groups\\YourGroupsOld.cshtml",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Groups\\YourGroupsOld.cshtml",
+              "RelativeToolTip": "ProiectASP\\Views\\Groups\\YourGroupsOld.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T10:01:39.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JoinRequestsOld.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Groups\\JoinRequestsOld.cshtml",
+              "RelativeDocumentMoniker": "ProiectASP\\Views\\Groups\\JoinRequestsOld.cshtml",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\Views\\Groups\\JoinRequestsOld.cshtml",
+              "RelativeToolTip": "ProiectASP\\Views\\Groups\\JoinRequestsOld.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T10:09:16.328Z",
+              "EditorCaption": ""
             }
           ]
         }

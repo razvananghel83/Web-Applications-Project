@@ -1,23 +1,48 @@
-﻿@if (ViewBag.Message != null)
-{
-    <div class="alert-success p-3 rounded-3 text-center mb-5 @ViewBag.Alert">
-        @ViewBag.Message
-    </div>
-}
+﻿
+
+
+<style>
+
+
+    .colorChange
+    {
+        transition:all 0.5s ease-in-out
+
+    }
+
+    .colorChange:hover
+    {
+        background-color: #dbdad7;
+    }
+
+    .colorChange:hover .hiddenDiv
+    {
+        display:block;
+    }
+
+    .hiddenDiv
+    {
+        display:none;
+        max-height: 6em;
+        overflow: hidden;
+    }
+
+</style>
+
 
 <h2>Other groups</h2>
-<br />
-<a class="btn btn-success" asp-controller="Groups" asp-action="Index">Back</a>
 
-<br />
-<br />
-<a class="btn btn-success" asp-controller="Groups" asp-action="PendingRequests">Pending Requests</a>
+<a type="button" asp-controller="Groups" class="btn btn-outline-primary" asp-action="Index"> Back </a>
 
-
+<a class="btn btn-outline-primary" asp-controller="Groups" asp-action="PendingRequests">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z" />
+        <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466" />
+    </svg> Pending Requests
+</a>
 <br />
 <br />
 
-@* Motorul de cautare *@
 <form method="GET">
     <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="Search topics or keywords" name="search"
@@ -26,44 +51,70 @@
     </div>
 </form>
 
+<div class="container">
 
-@if (ViewBag.Count == 0)
-{
-    <div>
-        You haven't made any groups
+    <div class="row ">
+        @foreach (var g in ViewBag.Groups)
+        {
+            <div class="col-md-4 mb-2">
+                <div class="card p-4 colorChange ">
+                    <div class="d-flex flex-row gap-2">
+                        <img src="@g.Image" alt="Group Image" style="width: 50px; height: 50px; object-fit: cover" class="rounded-circle" />
+
+                        <div style="height: 50px; display: flex; align-items: center;"><b>@g.Name</b></div>
+
+
+                        <div style="margin-left:auto;">
+
+                                <div class="dropdown ">
+                                    <button class="btn rounded-circle dropdown" type="button" id="dropdownPostButton"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                                        <b>...</b>
+                                    </button>
+
+
+                                    <ul class="dropdown-menu  flex-column gap-1 p-1" style="min-width: max-content;"
+                                        aria-labelledby="dropdownPostButton">
+
+                                        <li>
+
+                                                 <a class="btn btn-outline-success" asp-controller="Groups" asp-action="Join" asp-route-id="@g.Id">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
+                                                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                                                <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5" />
+                                            </svg> Join</a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="hiddenDiv">
+                        <br />
+                        @g.Description
+                    </div>
+                    <br />
+                    <a type="button" class="btn btn-outline-primary" asp-controller="Groups"
+                       asp-action="Show" asp-route-id="@g.Id">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                            <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                        </svg>Show group
+                    </a>
+
+                </div>
+            </div>
+        }
     </div>
-}
 
-@foreach (var g in ViewBag.Groups)
-{
-    <div class="card">
+</div>
 
 
-        <div class="card-body">
 
-            <h3 class="card-title alert-success py-3 px-3 rounded-2">@g.Name</h3>
-
-            <div class="card-text">@g.Description</div>
-
-            <img src="@g.Image" alt="Group Image" style="width: 50px; height: 50px; object-fit: cover" />
-        </div>
-
-        <div class="d-flex flex-row justify-content-between">
-
-            <a class="btn btn-success" asp-controller="Groups" asp-action="Join" asp-route-id="@g.Id">Join Group</a>
-
-        </div>
-
-        <br />
-
-    </div>
-
-    <br />
-    <br />
-}
-
-
-@* Afisarea paginata a articolelor *@
 
 <div>
     <nav aria-label="Page navigation example">

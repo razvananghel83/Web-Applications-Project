@@ -193,11 +193,18 @@ namespace ProiectASP.Controllers
                             Where(g => g.Id == id)
                             .First();
 
+            var member = db.UserGroups.Where(ug => ug.GroupId == id && ug.UserId == _userManager.GetUserId(User) && ug.Status==true);
+
+            if (member.Count() == 0)
+                ViewBag.Member = false;
+            else
+                ViewBag.Member = true;
+
             if (group.ModeratorId == _userManager.GetUserId(User))
                 ViewBag.Moderator = true;
             else
                 ViewBag.Moderator = false;
-            ViewBag.Posts = db.Posts.Where(p =>p.GroupId == id);
+            ViewBag.Posts = db.Posts.Include("User").Include("User.Profile").Where(p =>p.GroupId == id);
             return View(group);
         }
 
@@ -226,14 +233,14 @@ namespace ProiectASP.Controllers
 
 
 
-                 users = db.UserGroups.Include("User").
+                 users = db.UserGroups.Include("User").Include("User.Profile").
                     Where(ug => userIDs.Contains(ug.UserId))
                     .Where(ug => ug.GroupId == id && ug.Status == true);
             }
             else
             {
-                users = db.UserGroups.Include("User")
-                    .Where(ug => ug.GroupId == id && ug.Status == true);
+                users = db.UserGroups.Include("User").Include("User.Profile")
+                        .Where(ug => ug.GroupId == id && ug.Status == true);
 
             }
             ViewBag.Users = users;
@@ -414,14 +421,14 @@ namespace ProiectASP.Controllers
                                 && u.UserGroups.Any( ug => ug.GroupId == id && ug.Status==false))
                             .Select(u => u.Id).ToList();
 
-                var requests1 = db.ApplicationUsers.
+                var requests1 = db.ApplicationUsers.Include("Profile").
                     Where(u => requestsID.Contains(u.Id) );
                 requests = requests1;
 
             }
             else
             {
-                requests = db.ApplicationUsers
+                requests = db.ApplicationUsers.Include("Profile")
                                 .Where(u => u.UserGroups.Any(ug => ug.GroupId == id && ug.Status == false));
 
             }
@@ -429,6 +436,7 @@ namespace ProiectASP.Controllers
             ViewBag.Requests = requests;
             ViewBag.Search = search;
             ViewBag.Number = requests.Count();
+            ViewBag.CurrentGroup = db.Groups.Where(g => g.Id == id).First();
 
             int perPage = 12;
             int totalItems = requests.Count();

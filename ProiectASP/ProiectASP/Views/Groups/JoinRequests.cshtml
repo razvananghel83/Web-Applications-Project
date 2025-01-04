@@ -1,15 +1,16 @@
-﻿
+﻿@model ProiectASP.Models.UserGroup
+
+
 @if (ViewBag.Message != null)
 {
-    <div class="alert-success p-3 rounded-3 text-center mb-5 @ViewBag.Alert">
+    <div class=" p-3 rounded-3 text-center mb-5 @ViewBag.Alert">
         @ViewBag.Message
     </div>
 }
+<h2>@ViewBag.CurrentGroup.Name join requests</h2>
 
-<h2>Join Requests</h2>
 <br />
-<a class="btn btn-success" asp-controller="Groups" asp-action="YourGroups">Back</a>
-
+<a class="btn btn-outline-primary" asp-controller="Groups" asp-action="YourGroups" >Back</a>
 <br />
 <br />
 
@@ -22,25 +23,31 @@
     </div>
 </form>
 
-
-
+@if(ViewBag.Number==0)
+{
+    <div>This group has no join requests</div>
+}
 @foreach (var u in ViewBag.Requests)
 {
-    <div class="col-4 mb-4">
+    <div class="card p-3">
+        <div class="d-flex flex-row gap-2">
+            <img src="@u.Profile.ProfileImage" alt="profile image" class="rounded-circle"
+                 style="width:50px; height:50px; " />
+            <div style="height: 50px; display: flex; align-items: center;"><b>@u.UserName</b></div>
+            <div style="margin-left:auto;">
 
-
-        <div class="card" style="height:100%; width: 100%;">
-
-            <p><i class="bi bi-person"> </i> UserName: @u.UserName</p>
-
-            <div class="d-flex flex-row justify-content-between">
-                <form method="post" asp-action="Accept" asp-controller="Groups" >
+                <form method="post" asp-action="Accept" asp-controller="Groups">
 
                     <input type="hidden" name="UserId" value="@u.Id" />
 
                     <input type="hidden" name="GroupId" value="@ViewBag.GroupId" />
 
-                    <button class="btn btn-success" type="submit">Accept</button>
+                    <button class="btn btn-outline-success" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg> Accept
+                    </button>
                 </form>
 
                 <form method="post" asp-action="Reject" asp-controller="Groups">
@@ -49,42 +56,17 @@
 
                     <input type="hidden" name="GroupId" value="@ViewBag.GroupId" />
 
-                    <button class="btn btn-success" type="submit">Reject</button>
+                    <button class="btn btn-outline-danger" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+                        </svg> Reject
+                    </button>
                 </form>
+                
             </div>
         </div>
-
-
-        <br />
-
     </div>
-
     <br />
     <br />
 }
-
-
-@* Afisarea paginata a articolelor *@
-
-<div>
-    <nav aria-label="Page navigation example">
-        <ul class="pagination">
-            <li class="page-item">
-                <a class="page-link" href="@ViewBag.PaginationBaseUrl=1" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                </a>
-            </li>
-
-            @for (int i = 1; i <= ViewBag.lastPage; i++)
-            {
-                <li class="page-item"> <a class="page-link" href="@ViewBag.PaginationBaseUrl=@i">@(i)</a> </li>
-            }
-
-            <li class="page-item">
-                <a class="page-link" href="@ViewBag.PaginationBaseUrl=@(ViewBag.lastPage)" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</div>

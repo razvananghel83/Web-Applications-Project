@@ -314,13 +314,13 @@ namespace ProiectASP.Controllers
             {
                 db.Posts.Remove(post);
                 db.SaveChanges();
-                TempData["message"] = "Posts a fost sters";
+                TempData["message"] = "The post has been deleted.";
                 TempData["messageType"] = "alert-success";
                 return RedirectToAction("Index");
             }
             else
             {
-                TempData["message"] = "Nu aveti dreptul sa stergeti un post care nu va apartine";
+                TempData["message"] = "You don't have the right to delete other posts.";
                 TempData["messageType"] = "alert-danger";
                 return RedirectToAction("Index");
             }

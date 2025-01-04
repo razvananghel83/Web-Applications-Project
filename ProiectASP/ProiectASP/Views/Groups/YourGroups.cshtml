@@ -1,21 +1,47 @@
-﻿@if (ViewBag.Message != null)
-{
-    <div class="alert-success p-3 rounded-3 text-center mb-5 @ViewBag.Alert">
-        @ViewBag.Message
-    </div>
-}
+﻿
 
-<h2>Your groups</h2>
+
+<style>
+
+
+    .colorChange
+    {
+        transition:all 0.5s ease-in-out
+
+    }
+
+    .colorChange:hover
+    {
+        background-color: #dbdad7;
+    }
+
+    .colorChange:hover .hiddenDiv
+    {
+        display:block;
+    }
+
+    .hiddenDiv
+    {
+        display:none;
+        max-height: 6em;
+        overflow: hidden;
+    }
+
+</style>
+
+
+<a type="button" asp-controller="Groups" class="btn btn-outline-primary" asp-action="Index">
+    Back
+</a>
+<a type="button" asp-controller="Groups" class="btn btn-outline-primary" asp-action="New">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-plus" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 5.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V10a.5.5 0 0 1-1 0V8.5H6a.5.5 0 0 1 0-1h1.5V6a.5.5 0 0 1 .5-.5" />
+        <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z" />
+    </svg>  Create group
+</a>
 <br />
-<a class="btn btn-success" asp-controller="Groups" asp-action="Index" >Back</a>
-
-<a class="btn btn-success" asp-controller="Groups"
-   asp-action="New">Create group</a>
-
-<br />
 <br />
 
-@* Motorul de cautare *@
 <form method="GET">
     <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="Search topics or keywords" name="search"
@@ -32,41 +58,76 @@
     </div>
 }
 
-@foreach (var g in ViewBag.Groups)
-{
-    <div class="card">
+<div class="container">
+
+    <div class="row ">
+        @foreach (var g in ViewBag.Groups)
+        {
+            <div class="col-md-4 mb-2">
+                <div class="card p-4 colorChange ">
+                    <div class="d-flex flex-row gap-2">
+                        <img src="@g.Image" alt="Group Image" style="width: 50px; height: 50px; object-fit: cover" class="rounded-circle" />
+
+                        <div style="height: 50px; display: flex; align-items: center;"><b>@g.Name</b></div>
+
+                        <div style="margin-left:auto;">
+                                <div class="dropdown ">
+                                    <button class="btn rounded-circle dropdown" type="button" id="dropdownPostButton"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                                        <b>...</b>
+                                    </button>
 
 
-        <div class="card-body">
+                                    <ul class="dropdown-menu  flex-column gap-1 p-1" style="min-width: max-content;"
+                                        aria-labelledby="dropdownPostButton">
+                                        <li>
+                                            <a class="btn btn-outline-primary" asp-controller="Groups" asp-action="EditShow" asp-route-id="@g.Id">Edit</a>
+                                        </li>
+                                        <li>
 
-            <h3 class="card-title alert-success py-3 px-3 rounded-2">@g.Name</h3>
+                                            <form method="post" asp-controller="Groups" asp-action="DeleteShow" asp-route-id="@g.Id">
 
-            <div class="card-text">@g.Description</div>
+                                                <button class="btn btn-outline-danger" type="submit">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                                        <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                                    </svg>Delete
+                                                </button>
 
-            <img src="@g.Image" alt="Group Image" style="width: 50px; height: 50px; object-fit: cover" />
-        </div>
-
-        <div class="d-flex flex-row justify-content-between">
-
-            <a class="btn btn-success" asp-controller="Groups" asp-action="Edit" asp-route-id="@g.Id"> Edit Group</a>
-
-
-            <a class="btn btn-success" asp-controller="Groups" asp-action="Delete" asp-route-id="@g.Id">Delete group</a>
-
-            <a class="btn btn-success" asp-controller="Groups" asp-action="JoinRequests" asp-route-id="@g.Id">Join Requests</a>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </div>
+                        </div>
 
 
-        </div>
-        <br />
+                    </div>
+                    <div class="hiddenDiv">
+                        <br />
+                        @g.Description
+                    </div>
+                    <br />
+                    <a type="button" class="btn btn-outline-primary" asp-controller="Groups"
+                       asp-action="Show" asp-route-id="@g.Id">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                            <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                        </svg>Show group
+                    </a>
+                    <br />
+                    <a type="button" class="btn btn-outline-success" asp-controller="Groups"
+                        asp-action="JoinRequests" asp-route-id="@g.Id">
+                            Join Requests 
+                    </a>
 
+                </div>
+            </div>
+        }
     </div>
 
-    <br />
-    <br />
-}
+</div>
 
 
-@* Afisarea paginata a articolelor *@
+
 
 <div>
     <nav aria-label="Page navigation example">
