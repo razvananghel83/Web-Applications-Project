@@ -1,4 +1,13 @@
-﻿@if (ViewBag.Message != null)
+﻿<style>
+
+    .hover:hover
+    {
+        background-color: #dbdad7;
+    }
+</style>
+
+
+@if (ViewBag.Message != null)
 {
     <div class="alert-success p-3 rounded-3 text-center mb-5 @ViewBag.Alert">
         @ViewBag.Message
@@ -15,26 +24,29 @@
     </div>
 }
 
+<h2>Conversations</h2>
+
 @foreach (var c in ViewBag.Conversations)
 {
     <div class="card">
 
 
-        <div class="card-body">
+        <a class="card-body btn hover" asp-controller="Conversations" asp-action="Index" asp-route-id="@c.Id">
 
                 @foreach(var u in c.Users)
                 {
-                    <p>@u.UserName</p>
+                    @if(u.Id != ViewBag.UserId){
+                        <div class="d-flex flex-row gap-2">
+                            <img src="@u.Profile.ProfileImage" alt="profile image" class="rounded-circle"
+                                 style="width:50px; height:50px; " />
+                            <div style="height: 50px; display: flex; align-items: center;"><b>@u.UserName</b></div>
+                        </div>
+                    }
                 }
 
 
-            <a class="btn btn-success" asp-controller="Conversations" asp-action="Index" asp-route-id="@c.Id">Show</a>
 
-        </div>
-
-
-        <br />
-
+        </a>
     </div>
 
     <br />

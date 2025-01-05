@@ -651,6 +651,11 @@ namespace ProiectASP.Controllers
 
             if (group.ModeratorId == _userManager.GetUserId(User))
             {
+                var groupPosts = db.Posts.Where(p => p.GroupId == id);
+                foreach(var post in groupPosts)
+                {
+                    db.Posts.Remove(post);
+                }
                 db.Groups.Remove(group);
                 db.SaveChanges();
 

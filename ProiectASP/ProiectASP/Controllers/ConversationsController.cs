@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProiectASP.Data;
 using ProiectASP.Models;
+using System.Linq;
 
 namespace ProiectASP.Controllers
 {
@@ -27,42 +28,65 @@ namespace ProiectASP.Controllers
             _env = env;
 
         }
-
+            
         public IActionResult All()
         {
+
+            if (TempData.ContainsKey("message"))
+            {
+                ViewBag.Message = TempData["message"];
+                ViewBag.Alert = TempData["messageType"];
+            }
+
             var user = db.ApplicationUsers.Where(u=>u.Id == _userManager.GetUserId(User)).FirstOrDefault();
-            var conv = db.Conversations.Include(c => c.Users).Where(c => c.Users.Contains(user));
+            var conv = db.Conversations.Include(c=>c.Messages).Include(c=>c.Users).ThenInclude(u=>u.Profile).Where(c => c.Users.Contains(user));
             ViewBag.Conversations = conv;
             ViewBag.Count = conv.Count();
-
+            ViewBag.UserId = _userManager.GetUserId(User);
             return View();
         }
 
-        public IActionResult Index(int? conversationId)
+        public IActionResult Index(int? id)
         {
 
-            var conversation = db.Conversations.Include(c=>c.Users).Where(c => c.Id == conversationId).FirstOrDefault();
+            if (TempData.ContainsKey("message"))
+            {
+                ViewBag.Message = TempData["message"];
+                ViewBag.Alert = TempData["messageType"];
+            }
+
+            var conversation = db.Conversations.Where(c => c.Id == id).FirstOrDefault();
             if (conversation == null)
             {
-                TempData["message"] = "The conversation does not exist." + conversationId; 
+                TempData["message"] = "The conversation does not exist." + id;
                 TempData["messageType"] = "alert-danger";
                 return RedirectToAction("Following", "Follows");
             }
+            var conversationUsers = db.Users.Include("Profile").Where(u => u.Conversations.Contains(conversation));
             var user = _userManager.GetUserId(User);
             var applicationUser = db.ApplicationUsers.Where(u => u.Id == user).First();
 
-            if(conversation.Users.Contains(applicationUser) == false)
+            if (conversationUsers.Contains(applicationUser) == false)
             {
                 TempData["message"] = "You can not view this conversation.";
                 TempData["messageType"] = "alert-danger";
                 return RedirectToAction("Following", "Follows");
             }
 
-            ViewBag.Messages = db.Messages.Include("User").Where(m=>m.ConversationId == conversationId);
-            ViewBag.CurrentUser = user;
-            ViewBag.Users = conversation.Users;
-            ViewBag.CurrentConversation = conversationId;
-
+            ViewBag.Messages = db.Messages.Include("User").Include("User.Profile").Where(m => m.ConversationId == id);
+            foreach(var u in conversationUsers)
+            {
+                if(u.Id == user)
+                {
+                    ViewBag.CurrentUser = u;
+                }
+                else
+                {
+                    ViewBag.OtherUser = u;
+                }
+            }
+            ViewBag.CurrentConversation = id;
+           
             return View();
         }
 
@@ -98,13 +122,14 @@ namespace ProiectASP.Controllers
                 return RedirectToAction("Following", "Follows");
 
             }
-            var conversationId = db.Conversations
-                                .Where(c => c.Users.Count() == 2 &&
-                                        c.Users.Any(u => u.Id == user) &&
-                                        c.Users.Any(u => u.Id == id)).Select(c=>c.Id);
+            //int? conversationId = db.Conversations
+            //                    .Where(c => c.Users.Count() == 2 &&
+            //                            c.Users.Any(u => u.Id == user) &&
+            //                            c.Users.Any(u => u.Id == id)).Select(c=>(int?)c.Id).FirstOrDefault();
 
+            int? Id = conversation.Id;
 
-            return RedirectToAction("Index", new { conversationId});
+            return RedirectToAction("Index", new { Id } );
         }
     }
 }

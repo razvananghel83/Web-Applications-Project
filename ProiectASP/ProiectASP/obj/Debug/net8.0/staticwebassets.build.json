@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JxS8pmD5C0KVf3ZwVxZ2qWkh5eo/RYKG2U0IPW0OEvw=",
+  "Hash": "FEZ23FlllFDjHq01CaOajcw2jTlSJdoX4ZmxdlHMjgQ=",
   "Source": "ProiectASP",
   "BasePath": "_content/ProiectASP",
   "Mode": "Default",
@@ -1423,6 +1423,25 @@
       "OriginalItemSpec": "wwwroot\\images\\chrollo.jpg"
     },
     {
+      "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\chrollo1.jpg",
+      "SourceId": "ProiectASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "BasePath": "_content/ProiectASP",
+      "RelativePath": "images/chrollo1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\chrollo1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\Daft Punk - Veridis Quo (Official Audio) - Daft Punk (youtube).mp4",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
@@ -1497,6 +1516,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\NUEVILETTE PRIMO.png"
+    },
+    {
+      "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker capitano.png",
+      "SourceId": "ProiectASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "BasePath": "_content/ProiectASP",
+      "RelativePath": "images/sticker capitano.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sticker capitano.png"
     },
     {
       "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker gojo.png",

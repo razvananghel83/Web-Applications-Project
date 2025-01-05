@@ -1,0 +1,71 @@
+﻿@if (ViewBag.Message != null)
+{
+    <div class="alert-success p-3 rounded-3 text-center mb-5 @ViewBag.Alert">
+        @ViewBag.Message
+    </div>
+}
+
+<h2>Conversation</h2>
+
+@foreach(var u in ViewBag.Users )
+{
+    <div class="col-4 mb-4">
+
+
+        <div class="card" style="height:100%; width: 100%;">
+
+            <p><i class="bi bi-person"> </i> UserName: @u.UserName</p>
+
+        </div>
+    </div>
+}
+
+<h1>Messages</h1>
+
+@foreach(var m in ViewBag.Messages)
+{
+    <p>@m.User.UserName</p>
+    <p>@m.Content</p>
+    <p>@m.Date</p>
+}
+
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8">
+
+            <div class="card">
+
+                <form method="post" asp-controller="Messages" asp-action="Add">
+
+                    <div class="card-body">
+
+                        <input type="hidden" name="UserId" value="@ViewBag.CurrentUser" />
+                        <input type="hidden" name="ConversationId" value="@ViewBag.CurrentConversation" />
+
+                        <label>Send a message</label>
+                        <br />
+
+                        <textarea class="form-control" name="Content"></textarea>
+
+                        <br /><br />
+
+                        <button class="btn btn-success " type="submit">Send message</button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-2"></div>
+
+    </div>
+
+</div>

@@ -61,12 +61,20 @@
       "PackagePath": "staticwebassets\\images\\chrollo.jpg"
     },
     {
+      "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\chrollo1.jpg",
+      "PackagePath": "staticwebassets\\images\\chrollo1.jpg"
+    },
+    {
       "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\default_group_pic.png",
       "PackagePath": "staticwebassets\\images\\default_group_pic.png"
     },
     {
       "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\f99a7de62a225efab227826902c0ffc2.jpg",
       "PackagePath": "staticwebassets\\images\\f99a7de62a225efab227826902c0ffc2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker capitano.png",
+      "PackagePath": "staticwebassets\\images\\sticker capitano.png"
     },
     {
       "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker gojo.png",
