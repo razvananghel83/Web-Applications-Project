@@ -9,6 +9,7 @@ namespace ProiectASP.Models
         
         public string Description { get; set; }
 
+        [Required]
         public DateTime DateOfBirth { get; set; }
 
 

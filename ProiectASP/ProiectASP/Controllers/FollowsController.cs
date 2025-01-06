@@ -96,7 +96,7 @@ namespace ProiectASP.Controllers
 
 
         // vedem prietenii din aplicatie 
-        public IActionResult Followers()
+        public IActionResult Followers(string? id)
         {
             if (TempData.ContainsKey("message"))
             {
@@ -104,7 +104,7 @@ namespace ProiectASP.Controllers
                 ViewBag.Alert = TempData["messageType"];
             }
 
-            var userId = _userManager.GetUserId(User);
+            var userId = id;
 
             var search = "";
             IEnumerable<ApplicationUser> followers;
@@ -123,7 +123,7 @@ namespace ProiectASP.Controllers
                                         u.UserName.Contains(search)
                                     ).Select(u => u.Id).ToList();
 
-                followers = db.ApplicationUsers.Where
+                followers = db.ApplicationUsers.Include("Profile").Where
                             (
                                 u => SearchedFollowers.Contains((string)u.Id)
                             );
@@ -132,7 +132,7 @@ namespace ProiectASP.Controllers
             else
             {
 
-                followers = db.ApplicationUsers.Where
+                followers = db.ApplicationUsers.Include("Profile").Where
                             (
                                 u => FollowersList.Contains((string)u.Id)
                             );
@@ -143,6 +143,7 @@ namespace ProiectASP.Controllers
             ViewBag.Search = search;
 
             ViewBag.Number = followers.Count();
+            ViewBag.EsteAdmin = User.IsInRole("Admin");
 
             if (search != "")
             {
@@ -156,7 +157,7 @@ namespace ProiectASP.Controllers
             return View();
         }
 
-        public IActionResult Following()
+        public IActionResult Following(string? id)
         {
 
             if (TempData.ContainsKey("message"))
@@ -164,7 +165,7 @@ namespace ProiectASP.Controllers
                 ViewBag.Message = TempData["message"];
                 ViewBag.Alert = TempData["messageType"];
             }
-            var userId = _userManager.GetUserId(User);
+            var userId = id;
 
             var search = "";
             IEnumerable<ApplicationUser> following;
@@ -185,7 +186,7 @@ namespace ProiectASP.Controllers
                                         u.UserName.Contains(search)
                                     ).Select(u => u.Id).ToList();
 
-                following = db.ApplicationUsers.Where
+                following = db.ApplicationUsers.Include("Profile").Where
                             (
                                 u => SearchedFollowers.Contains((string)u.Id)
                             );
@@ -194,7 +195,7 @@ namespace ProiectASP.Controllers
             else
             {
 
-                following = db.ApplicationUsers.Where
+                following = db.ApplicationUsers.Include("Profile").Where
                             (
                                 u => FollowingList.Contains((string)u.Id)
                             );
@@ -205,6 +206,7 @@ namespace ProiectASP.Controllers
             ViewBag.Search = search;
 
             ViewBag.Number = following.Count();
+            ViewBag.EsteAdmin = User.IsInRole("Admin");
 
             if (search != "")
             {
@@ -232,9 +234,6 @@ namespace ProiectASP.Controllers
 
             var search = "";
             IEnumerable<ApplicationUser> users;
-            List<string> Following = db.Follows.Where(
-                f => f.FollowerId == userId 
-                    ).Select(f => (string)f.UserId).ToList();
             if (Convert.ToString(HttpContext.Request.Query["search"]) != null)
             {
                 search = Convert.ToString(HttpContext.Request.Query["search"]).Trim();
@@ -243,13 +242,12 @@ namespace ProiectASP.Controllers
 
                 List<string> UserIDs = db.ApplicationUsers.Where
                                     (
-                                        u => u.UserName.Contains(search) && u.Id != userId &&
-                                            !Following.Contains(u.Id)
+                                        u => u.UserName.Contains(search) && u.Id != userId 
                                     )
                                     .Select(u => (string)u.Id).ToList();
 
 
-                users = db.ApplicationUsers.Where
+                users = db.ApplicationUsers.Include("Profile").Where
                             (
                                 u => UserIDs.Contains((string)u.Id)
                             );
@@ -259,18 +257,22 @@ namespace ProiectASP.Controllers
             {
                 List<string> UserIDs = db.ApplicationUsers
                                     .Select(u => (string)u.Id).ToList();
-                users = db.ApplicationUsers.Where
+                users = db.ApplicationUsers.Include("Profile").Where
                             (
                                 u => UserIDs.Contains((string)u.Id) && u.Id != userId
-                                && !Following.Contains(u.Id)
                             );
 
 
             }
+
+
             ViewBag.Users = users;
             ViewBag.Search = search;
-
+            ViewBag.CurrentUser = userId;
+            ViewBag.Follows = db.Follows.Where(f=>f.FollowerId==userId && f.Status==true).Select(f => f.UserId).ToList();
+            ViewBag.Sent = db.Follows.Where(f => f.FollowerId == userId && f.Status == false).Select(f => f.UserId).ToList();
             ViewBag.Number = users.Count();
+            ViewBag.EsteAdmin = User.IsInRole("Admin");
 
             if (search != "")
             {
@@ -333,7 +335,7 @@ namespace ProiectASP.Controllers
                                         u.UserName.Contains(search)
                                     ).Select(u => u.Id).ToList();
 
-                myRequests = db.ApplicationUsers.Where
+                myRequests = db.ApplicationUsers.Include("Profile").Where
                             (
                                 u => SearchedRequests.Contains((string)u.Id)
                             );
@@ -342,7 +344,7 @@ namespace ProiectASP.Controllers
             else
             {
 
-                myRequests = db.ApplicationUsers.Where
+                myRequests = db.ApplicationUsers.Include("Profile").Where
                             (
                                 u => Requests.Contains((string)u.Id)
                             );

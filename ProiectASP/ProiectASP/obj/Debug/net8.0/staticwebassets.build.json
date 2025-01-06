@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FEZ23FlllFDjHq01CaOajcw2jTlSJdoX4ZmxdlHMjgQ=",
+  "Hash": "WsR9uNns9so3wYnEA3vZBoK+842HWybH7lzAejrLZQE=",
   "Source": "ProiectASP",
   "BasePath": "_content/ProiectASP",
   "Mode": "Default",
@@ -1480,6 +1480,25 @@
       "OriginalItemSpec": "wwwroot\\images\\default_group_pic.png"
     },
     {
+      "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\default-profile-pic.jpg",
+      "SourceId": "ProiectASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "BasePath": "_content/ProiectASP",
+      "RelativePath": "images/default-profile-pic.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\default-profile-pic.jpg"
+    },
+    {
       "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\f99a7de62a225efab227826902c0ffc2.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
@@ -1573,6 +1592,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\sticker kaeya.png"
+    },
+    {
+      "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\Viktor - ARCANE.jpeg",
+      "SourceId": "ProiectASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "BasePath": "_content/ProiectASP",
+      "RelativePath": "images/Viktor - ARCANE.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Viktor - ARCANE.jpeg"
     },
     {
       "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\js\\site.js",

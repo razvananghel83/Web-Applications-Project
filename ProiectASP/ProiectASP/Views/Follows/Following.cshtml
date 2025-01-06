@@ -19,34 +19,52 @@
 
 @if (ViewBag.Number == 0 && ViewBag.Search == "")
 {
-    <div class="alert-success p-3 rounded-3 text-center mb-5">
-        no one's following you :')
+    <div >
+        no one's following you
     </div>
 }
 
 @foreach (var u in ViewBag.following)
 {
-    <div class="col-4 mb-4">
+    <div class="card p-3">
+        <div class="d-flex flex-row gap-2">
+            <a asp-controller="Profiles"  asp-action="Show" asp-route-id="@u.Id">
+            <img src="@u.Profile.ProfileImage" alt="profile image" class="rounded-circle"
+                 style="width:50px; height:50px; " />
+            </a>
+             <div style="height: 50px; display: flex; align-items: center;"><b>@u.UserName</b></div>
+            <div style="margin-left:auto;">
+                @if (ViewBag.EsteAdmin == true)
+                {
+
+                    <div class="dropdown ">
+                        <button class="btn rounded-circle dropdown" type="button" id="dropdownPostButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+
+                            <b>...</b>
+                        </button>
 
 
-        <div class="card" style="height:100%; width: 100%;">
+                        <ul class="dropdown-menu  flex-column gap-1 p-1" style="min-width: max-content;"
+                            aria-labelledby="dropdownPostButton">
 
-            <p><i class="bi bi-person"> </i> UserName: @u.UserName</p>
-            <div class="d-flex flex-row justify-content-between">
+                            <li>
 
-                <a class="btn btn-success" asp-controller="Conversations" asp-action="Conversation" asp-route-id="@u.Id">Conversation</a>
+                                <button class="btn btn-outline-danger" type="submit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eraser" viewBox="0 0 16 16">
+                                        <path d="M8.086 2.207a2 2 0 0 1 2.828 0l3.879 3.879a2 2 0 0 1 0 2.828l-5.5 5.5A2 2 0 0 1 7.879 15H5.12a2 2 0 0 1-1.414-.586l-2.5-2.5a2 2 0 0 1 0-2.828zm2.121.707a1 1 0 0 0-1.414 0L4.16 7.547l5.293 5.293 4.633-4.633a1 1 0 0 0 0-1.414zM8.746 13.547 3.453 8.254 1.914 9.793a1 1 0 0 0 0 1.414l2.5 2.5a1 1 0 0 0 .707.293H7.88a1 1 0 0 0 .707-.293z" />
+                                    </svg> Remove
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                }
 
             </div>
-
         </div>
-
-
-        <br />
-
     </div>
-
     <br />
     <br />
 }
-
-

@@ -93,11 +93,12 @@ namespace ProiectASP.Controllers
         public IActionResult Conversation(string? id)
         {
             var user = _userManager.GetUserId(User);
-            var follows = db.Follows.Where(f => f.UserId == id && f.FollowerId == user);
-
-            if (follows.Count() == 0)
+            var follows = db.Follows.Where(f => f.UserId == id && f.FollowerId == user && f.Status==true);
+            var following = db.Follows.Where(f => f.UserId == user && f.FollowerId == id && f.Status == true);
+            var profile = db.Profiles.Where(p => p.UserId == user).First();
+            if (follows.Count() == 0 && following.Count()==0 && profile.IsPrivate==true)
             {
-                TempData["message"] = "You can only talk to people you follow.";
+                TempData["message"] = "You can only talk to people you are friends with.";
                 TempData["messageType"] = "alert-danger";
                 return RedirectToAction("Following", "Follows");
             }
@@ -117,9 +118,6 @@ namespace ProiectASP.Controllers
                 db.Conversations.Add(conversation);
                 db.SaveChanges();
 
-                TempData["message"] = "You can only talk to people you follow." + conversation.Users.Count() ;
-                TempData["messageType"] = "alert-danger";
-                return RedirectToAction("Following", "Follows");
 
             }
             //int? conversationId = db.Conversations

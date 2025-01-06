@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\images\\NUEVILETTE PRIMO.png"
     },
     {
+      "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\Viktor - ARCANE.jpeg",
+      "PackagePath": "staticwebassets\\images\\Viktor - ARCANE.jpeg"
+    },
+    {
       "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\aeb9d5417b4ebae28208b04abeb35c00.jpg",
       "PackagePath": "staticwebassets\\images\\aeb9d5417b4ebae28208b04abeb35c00.jpg"
     },
@@ -63,6 +67,10 @@
     {
       "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\chrollo1.jpg",
       "PackagePath": "staticwebassets\\images\\chrollo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\default-profile-pic.jpg",
+      "PackagePath": "staticwebassets\\images\\default-profile-pic.jpg"
     },
     {
       "Id": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\default_group_pic.png",
