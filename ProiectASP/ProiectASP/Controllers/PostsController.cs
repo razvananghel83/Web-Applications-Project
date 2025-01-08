@@ -26,26 +26,20 @@ namespace ProiectASP.Controllers
             _roleManager = roleManager;
             _env = env;
         }
-        [Authorize(Roles = "User,Admin")]
+
         public IActionResult Index()
         {
-            // var Posts = db.Posts.Include("User");
-            //in http : post.user.UserName
-            var Posts = db.Posts.Include("User").Include("User.Profile");
-            // ViewBag.OriceDenumireSugestiva
-            ViewBag.Posts = Posts;
-
-
-            ViewBag.EsteAdmin = User.IsInRole("Admin");
-            ViewBag.UserId = _userManager.GetUserId(User);
-
+            var posts = db.Posts.Include(p => p.User).Include(p => p.User.Profile).ToList();
+            ViewBag.Posts = posts;
+            
             if (TempData.ContainsKey("message"))
             {
                 ViewBag.Message = TempData["message"];
             }
-            return View();
 
+            return View();
         }
+
         //public IActionResult New()
         //{
 
@@ -107,7 +101,7 @@ namespace ProiectASP.Controllers
         //    }
         //}
         [HttpPost]
-        public async Task<IActionResult> New(Post post, IFormFile? Image)
+        public async Task<IActionResult> New( Post post, IFormFile? Image )
         {
             post.Date = DateTime.Now;
             // adaug imaginea in folder si in tabel

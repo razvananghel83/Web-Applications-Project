@@ -13,7 +13,7 @@ namespace ProiectASP.Models
         public DateTime DateOfBirth { get; set; }
 
 
-        public string ProfileImage {  get; set; }
+        public string? ProfileImage {  get; set; }
 
         public bool IsPrivate { get; set; }
 

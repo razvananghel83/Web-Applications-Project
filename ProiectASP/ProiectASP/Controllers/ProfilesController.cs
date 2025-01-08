@@ -155,14 +155,16 @@ namespace ProiectASP.Controllers
         public IActionResult Edit(int id)
         {
 
+            Console.WriteLine($"Edit method called with ptofile id: {id}");
+
             Profile profile = db.Profiles.Where(pro => pro.Id == id)
-                                    .First();
+                                        .First();
 
             if (profile == null)
             {
+                Console.WriteLine($"No profile found with id: {id}");
                 return NotFound();
             }
-
 
             if (profile.UserId != _userManager.GetUserId(User))
             {
@@ -187,6 +189,8 @@ namespace ProiectASP.Controllers
             {
                 return Unauthorized();
             }
+
+            ModelState.Remove(nameof(Profile.ProfileImage));
 
             if (ModelState.IsValid)
             {
@@ -216,9 +220,8 @@ namespace ProiectASP.Controllers
                         return View(profile);
                     }
 
-                    //var storagePath = Path.Combine(_env.WebRootPath, "images", newProfileImage.FileName);
-                    var storagePath = Path.GetDirectoryName(newProfileImage.FileName);
-                    var databaseFileName = "/images/" + newProfileImage.FileName;
+                    var storagePath = Path.Combine(_env.WebRootPath, "images", Path.GetFileName(newProfileImage.FileName));
+                    var databaseFileName = "/images/" + Path.GetFileName(newProfileImage.FileName);
 
                     try
                     {
@@ -237,13 +240,14 @@ namespace ProiectASP.Controllers
 
                 db.SaveChanges();
 
-                TempData["message"] = "Profilul a fost modificat";
+                TempData["message"] = "Profile modified successfully!";
                 TempData["messageType"] = "alert-success";
-                return RedirectToAction("Details", new { id });
+                return RedirectToAction("Show", new { id = profile.UserId });
             }
 
             return View(profile);
         }
+
 
 
         // Other actions for Delete, etc.
