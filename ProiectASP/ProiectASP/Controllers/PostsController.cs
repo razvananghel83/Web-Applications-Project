@@ -29,12 +29,76 @@ namespace ProiectASP.Controllers
 
         public IActionResult Index()
         {
-            var posts = db.Posts.Include(p => p.User).Include(p => p.User.Profile).ToList();
-            ViewBag.Posts = posts;
+            //var posts = db.Posts.Include(p => p.User).Include(p => p.User.Profile).ToList();
+            //ViewBag.Posts = posts;
             
+            //if (TempData.ContainsKey("message"))
+            //{
+            //    ViewBag.Message = TempData["message"];
+            //}
+
+            //return View();
+
+
+            var userId = _userManager.GetUserId(User);
+
             if (TempData.ContainsKey("message"))
             {
                 ViewBag.Message = TempData["message"];
+                ViewBag.Alert = TempData["messageType"];
+            }
+
+            //search engine
+
+            var search = "";
+            IEnumerable<Post> posts;
+            if (Convert.ToString(HttpContext.Request.Query["search"]) != null)
+            {
+                search = Convert.ToString(HttpContext.Request.Query["search"]).Trim();
+
+                List<int> postIds = db.Posts.Where
+                                    (
+                                        p => p.Content.Contains(search)
+                                    )
+                                    .Select(p => (int)p.Id).ToList();
+                
+
+                 posts = db.Posts.Include(p => p.User).Include(p => p.User.Profile).
+                    Where(p => postIds.Contains((int)p.Id))
+                                                        .OrderByDescending(p => p.Id).ToList();
+               
+
+            }
+            else
+            {
+                posts = db.Posts.Include(p => p.User).Include(p => p.User.Profile).OrderByDescending(p => p.Id).ToList();
+            }
+            ViewBag.Posts = posts;
+            ViewBag.Search = search;
+
+            int perPage = 6;
+            int totalItems = posts.Count();
+            var currentPage = Convert.ToInt32(HttpContext.Request.Query["page"]);
+
+            var offset = 0;
+
+            if (!currentPage.Equals(0))
+            {
+                offset = (currentPage - 1) * perPage;
+            }
+            var paginatedPosts = posts.Skip(offset).Take(perPage);
+
+            ViewBag.lastPage = Math.Ceiling((float)totalItems / (float)perPage);
+
+            ViewBag.Groups = paginatedPosts;
+
+            if (search != "")
+            {
+                ViewBag.PaginationBaseUrl = "/Posts/Index/?search=" + search + "&page";
+            }
+            else
+            {
+                ViewBag.PaginationBaseUrl = "/Posts/Index/?page";
             }
 
             return View();
