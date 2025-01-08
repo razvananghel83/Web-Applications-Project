@@ -26,26 +26,20 @@ namespace ProiectASP.Controllers
             _roleManager = roleManager;
             _env = env;
         }
-        [Authorize(Roles = "User,Admin")]
+
         public IActionResult Index()
         {
-            // var Posts = db.Posts.Include("User");
-            //in http : post.user.UserName
-            var Posts = db.Posts.Include("User").Include("User.Profile");
-            // ViewBag.OriceDenumireSugestiva
-            ViewBag.Posts = Posts;
-
-
-            ViewBag.EsteAdmin = User.IsInRole("Admin");
-            ViewBag.UserId = _userManager.GetUserId(User);
-
+            var posts = db.Posts.Include(p => p.User).Include(p => p.User.Profile).ToList();
+            ViewBag.Posts = posts;
+            
             if (TempData.ContainsKey("message"))
             {
                 ViewBag.Message = TempData["message"];
             }
-            return View();
 
+            return View();
         }
+
         //public IActionResult New()
         //{
 
@@ -107,7 +101,7 @@ namespace ProiectASP.Controllers
         //    }
         //}
         [HttpPost]
-        public async Task<IActionResult> New(Post post, IFormFile? Image)
+        public async Task<IActionResult> New( Post post, IFormFile? Image )
         {
             post.Date = DateTime.Now;
             // adaug imaginea in folder si in tabel
@@ -116,13 +110,13 @@ namespace ProiectASP.Controllers
             if (Image != null && Image.Length > 0)
             {
 
-                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".mp4", ".mov" };
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".mp4", ".mov", ".mp3" };
 
                 var fileExtension = Path.GetExtension(Image.FileName).ToLower();
 
                 if (!allowedExtensions.Contains(fileExtension))
                 {
-                    ModelState.AddModelError("PostImage", "The file needs to be a jpg, jpeg  ,png ,.gif .mp4 .mov");
+                    ModelState.AddModelError("PostImage", "The file needs to be a jpg, jpeg  ,png ,.gif .mp4 .mov .mp3");
                     return View(post);
                 }
 
@@ -199,13 +193,13 @@ namespace ProiectASP.Controllers
                     post.Date = DateTime.Now;
                     if (Image != null && Image.Length > 0)
                     {
-                        var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
+                        var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".mp4", ".mov", ".mp3" };
 
                         var fileExtension = Path.GetExtension(Image.FileName).ToLower();
 
                         if (!allowedExtensions.Contains(fileExtension))
                         {
-                            ModelState.AddModelError("ArticleImage", "The file needs to be a jpg, jpeg or png.");
+                            ModelState.AddModelError("ArticleImage", "The file needs to be a jpg, jpeg, png, gif, mp3, mov or mp3");
                             return View(post);
                         }
 

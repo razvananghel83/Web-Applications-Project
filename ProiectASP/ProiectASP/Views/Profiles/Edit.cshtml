@@ -1,0 +1,67 @@
+﻿@model ProiectASP.Models.Profile
+
+@{
+    ViewBag.Title = "Editează profilul";
+}
+
+<h2 class="text-center mt-5">Editează profilul</h2>
+
+<div class="container mt-5">
+
+    <div class="row">
+
+        <div class="col-md-6 offset-md-3">
+
+            <form asp-action="Edit" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data">
+
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+
+                <div class="form-group">
+
+                    <label asp-for="Description" class="form-label">Description</label>
+                    <textarea asp-for="Description" name="newDescription" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+
+                </div>
+
+
+                <div class="form-group mt-3">
+
+                    <label asp-for="DateOfBirth" class="form-label">Date of Birth</label>
+                    <input asp-for="DateOfBirth" name="newDob" type="date" class="form-control" />
+                    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+
+                </div>
+
+
+                <div class="form-group mt-3">
+
+                    <label asp-for="ProfileImage" class="form-label">Profile Image</label>
+                    <input asp-for="ProfileImage" name="newProfileImage" type="file" class="form-control" />
+                    <span asp-validation-for="ProfileImage" class="text-danger"></span>
+                    @if ( !string.IsNullOrEmpty( Model.ProfileImage ) )
+                    {
+                        <p>Current Image:</p>
+                        <img src="@Model.ProfileImage" alt="Profile Image" class="img-fluid" style="max-height: 200px;" />
+                    }
+
+                </div>
+
+
+                <div class="form-group mt-3">
+
+                    <label asp-for="IsPrivate" class="form-label">Profile Privacy</label>
+                    <select asp-for="IsPrivate" name="newIsPrivate" class="form-control">
+                        <option value="true" selected="@Model.IsPrivate">Private</option>
+                        <option value="false" selected="@(Model.IsPrivate == false)">Public</option>
+                    </select>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary mt-4">Save Changes</button>
+
+            </form>
+        </div>
+    </div>
+</div>

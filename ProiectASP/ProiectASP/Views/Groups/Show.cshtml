@@ -88,7 +88,31 @@
                         </div>
                         @if (post.Image != null)
                         {
-                            <img src="@post.Image" alt="post image" />
+                            string extension = (post.Image).Split(".")[1].ToLower();
+
+
+                            @if (new[] { "jpg", "jpeg", "png", "gif" }.Contains(extension))
+                            {
+                                <img src="@post.Image" alt="post image" />
+                            }
+                            else if (extension == "mp4")
+                            {
+                                <video controls >
+                                    <source src="@post.Image" type="video/mp4" />
+                                </video>
+                            }
+                            else if (extension == "mp3")
+                            {
+                                <audio controls>
+                                    <source src="@post.Image" type="audio/mp3">
+                                </audio>
+                            }
+                            else
+                            {
+                                <video controls >
+                                    <source src="@post.Image" />
+                                </video>
+                            }
                         }
                     </div>
 

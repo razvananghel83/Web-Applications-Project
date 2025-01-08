@@ -51,7 +51,32 @@
             </div>
             @if (Model.Image != null)
             {
-                <img src="@Model.Image" alt="post image" />
+                string extension = (Model.Image).Split(".").Last().ToLower();
+
+
+                @if (new[] { "jpg", "jpeg", "png", "gif" }.Contains(extension))
+                {
+                    <img src="@Model.Image" alt="post image" />
+                }
+                else if (extension == "mp4")
+                {
+                    <video controls>
+                        <source src="@Model.Image" type="video/mp4" />
+                        Post video
+                    </video>
+                }
+                else if (extension == "mp3")
+                {
+                    <audio controls>
+                        <source src="@Model.Image" type="audio/mp3">
+                    </audio>
+                }
+                else
+                {
+                    <video controls >
+                        <source src="@Model.Image" />
+                    </video>
+                }
             }
         </div>
         <div class="card p-1" style="width:30rem">

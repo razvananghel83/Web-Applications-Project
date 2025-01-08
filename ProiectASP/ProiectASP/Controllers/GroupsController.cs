@@ -874,14 +874,15 @@ namespace ProiectASP.Controllers
             if (Image != null && Image.Length > 0)
             {
 
-                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".mp4", ".mov" };
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".mp4", ".mov", ".mp3" };
 
                 var fileExtension = Path.GetExtension(Image.FileName).ToLower();
 
+
                 if (!allowedExtensions.Contains(fileExtension))
                 {
-                    ModelState.AddModelError("PostImage", "The file needs to be a jpg, jpeg  ,png ,.gif .mp4 .mov");
-                    return View(post);
+                    ModelState.AddModelError("PostImage", "The file needs to be a jpg, jpeg  ,png ,.gif, .mp4, .mov or .mp3");
+                    return RedirectToAction("AddPost", new { id = post.GroupId });
                 }
 
                 var storagePath = Path.Combine(_env.WebRootPath, "images", Image.FileName);
