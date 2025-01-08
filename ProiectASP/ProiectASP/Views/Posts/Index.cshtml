@@ -52,23 +52,23 @@
 
                     @if (new[] { "jpg", "jpeg", "png", "gif" }.Contains(extension))
                     {
-                        <img src="@post.Image" alt="post image" />
+                        <img style ="max-width: 50vw;" src="@post.Image" alt="post image" />
                     }
                     else if (extension == "mp4")
                     {
-                        <video controls >
+                        <video controls style="max-width: 50vw;">
                             <source src="@post.Image" type="video/mp4" />
                         </video>
                     }
                     else if (extension == "mp3")
                     {
-                        <audio controls>
+                        <audio controls style="max-width: 50vw;">
                             <source src="@post.Image" type="audio/mp3">
                         </audio>
                     }
                     else
                     {
-                        <video controls>
+                        <video controls style="max-width: 50vw;">
                             <source src="@post.Image" />
                         </video>
                     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9gbAYEjMLPHQEoHFDBTK12ENPdW4/fy4wGUBAzVd6Oo=",
+  "Hash": "pKn5aqiGF5CwIWXOBNFYlsMKSvmo7wuZvxi+HExUjAc=",
   "Source": "ProiectASP",
   "BasePath": "_content/ProiectASP",
   "Mode": "Default",
@@ -1556,6 +1556,25 @@
       "OriginalItemSpec": "wwwroot\\images\\cristian.jpg"
     },
     {
+      "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\cute.gif",
+      "SourceId": "ProiectASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "BasePath": "_content/ProiectASP",
+      "RelativePath": "images/cute.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cute.gif"
+    },
+    {
       "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\Daft Punk - Veridis Quo (Official Audio) - Daft Punk (youtube).mp4",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
@@ -1687,6 +1706,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Fate Zero Ending 1.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\image.png",
+      "SourceId": "ProiectASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "BasePath": "_content/ProiectASP",
+      "RelativePath": "images/image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image.png"
     },
     {
       "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\NUEVILETTE PRIMO.png",

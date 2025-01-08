@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration.UserSecrets;
+using Microsoft.Extensions.Hosting;
 using ProiectASP.Data;
 using ProiectASP.Models;
 
@@ -419,8 +420,74 @@ namespace ProiectASP.Controllers
             return RedirectToAction("UserRequests");
         }
 
+        public IActionResult Delete(string? id)
+        {
+            if(!User.IsInRole("Admin"))
+            {
+                TempData["message"] = "You can not delete users.";
+                TempData["messageType"] = "alert-danger";
 
+                return RedirectToAction("AllUsers");
+            }
+            var user = db.Users.Where(u => u.Id == id).FirstOrDefault();
+            var likes = db.Likes.Where(l => l.UserId == id);
+            var profile = db.Profiles.Where( p=> p.UserId == id).FirstOrDefault();
+            var comentarii = db.Comments.Where(c => c.UserId == id);
+            var posts = db.Posts.Where(p=>p.UserId == id);
+            var conversations = db.Conversations.Where(c => c.Users.Contains(user));
+            var groups = db.Groups.Where(g => g.ModeratorId == id);
+            foreach (var like in likes)
+                db.Remove(like);
+            foreach (var com in comentarii)
+                db.Remove(com);
+            foreach (var post in posts)
+            {
+                var postCom = db.Comments.Where(c => c.PostId == post.Id);
 
+                foreach (var c in postCom)
+                    db.Remove(c);
+
+                var postLikes = db.Likes.Where(l => l.PostId == post.Id);
+                foreach (var pl in postLikes)
+                    db.Remove(pl);
+                db.Remove(post);
+            }
+            foreach (var conversation in conversations)
+            {
+                var messages = db.Messages.Where(m => m.ConversationId == conversation.Id);
+                foreach(var message in messages)
+                     db.Remove(message); 
+            }
+            foreach (var group in groups)
+            {
+                var gposts = db.Posts.Where(p => p.GroupId == group.Id);
+                foreach(var p in gposts)
+                {
+                    var postCom = db.Comments.Where(c => c.PostId == p.Id);
+
+                    foreach (var c in postCom)
+                        db.Remove(c);
+
+                    var postLikes = db.Likes.Where(l => l.PostId == p.Id);
+                    foreach (var pl in postLikes)
+                        db.Remove(pl);
+
+                    db.Remove(p);
+                }
+                db.Remove(group);
+            }
+            var follow = db.Follows.Where(f => f.FollowerId == id || f.UserId == id);
+            foreach (var f in follow)
+            {
+                db.Remove(f);
+            }
+
+            db.Remove(profile);
+            db.Remove(user);
+            db.SaveChanges();
+            return RedirectToAction("AllUsers");
+
+        }
         public bool Friends(string? user1Id, string? user2Id)
         {
 
