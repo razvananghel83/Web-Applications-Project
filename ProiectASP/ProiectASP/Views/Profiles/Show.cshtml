@@ -30,7 +30,7 @@
                     <div style=" display: flex; align-items: center;"><b>@ViewBag.User.UserName</b></div>
                     @if (ViewBag.User.Id == ViewBag.UserId || ViewBag.EsteAdmin == true)
                     {
-                        <a class="btn btn-outline-secondary" asp-action="Edit" asp-controller="Profiles" asp-rout-id="@ViewBag.User.Id">edit profile</a>
+                        <a class="btn btn-outline-secondary" asp-action="Edit" asp-controller="Profiles" asp-route-id="@ViewBag.Profile.Id">edit profile</a>
                     }
                     @if (ViewBag.conv == true && ViewBag.User.Id != ViewBag.UserId)
                     {

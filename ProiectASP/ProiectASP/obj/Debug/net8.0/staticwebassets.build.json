@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WsR9uNns9so3wYnEA3vZBoK+842HWybH7lzAejrLZQE=",
+  "Hash": "5dVKMnQ40zIuIBbanOUP7vZOgN3ncYAp/4ni5l6BDHQ=",
   "Source": "ProiectASP",
   "BasePath": "_content/ProiectASP",
   "Mode": "Default",
@@ -1250,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\099a2383002182c440bf4f728b8d3fb6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\2024-05-11 09-28-32.mp4",
+      "SourceId": "ProiectASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "BasePath": "_content/ProiectASP",
+      "RelativePath": "images/2024-05-11 09-28-32.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2024-05-11 09-28-32.mp4"
     },
     {
       "Identity": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\wwwroot\\images\\6fa049b4086040cb70deec2fe1f22c62.jpg",
