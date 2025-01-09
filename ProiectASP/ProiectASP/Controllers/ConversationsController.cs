@@ -39,7 +39,7 @@ namespace ProiectASP.Controllers
             }
 
             var user = db.ApplicationUsers.Where(u=>u.Id == _userManager.GetUserId(User)).FirstOrDefault();
-            var conv = db.Conversations.Include(c=>c.Messages).Include(c=>c.Users).ThenInclude(u=>u.Profile).Where(c => c.Users.Contains(user));
+            var conv = db.Conversations.Include(c=>c.Messages).Include(c=>c.Users).ThenInclude(u=>u.Profile).Where(c => c.Users.Contains(user) && c.Users.Count()>1);
             ViewBag.Conversations = conv;
             ViewBag.Count = conv.Count();
             ViewBag.UserId = _userManager.GetUserId(User);
