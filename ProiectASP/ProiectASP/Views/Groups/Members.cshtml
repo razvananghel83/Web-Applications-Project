@@ -32,42 +32,45 @@
                      style="width:50px; height:50px; " />
             </a>
             <div style="height: 50px; display: flex; align-items: center;"><b>@u.User.UserName</b></div>
-            <div style="margin-left:auto;">
-                @if (ViewBag.Moderator == true )
-                {
+            @if (u.User.Id != ViewBag.CurrentId)
+            {
+                <div style="margin-left:auto;">
+                    @if (ViewBag.Moderator == true)
+                    {
 
-                    <div class="dropdown ">
-                        <button class="btn rounded-circle dropdown" type="button" id="dropdownPostButton"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="dropdown ">
+                            <button class="btn rounded-circle dropdown" type="button" id="dropdownPostButton"
+                            data-bs-toggle="dropdown" aria-expanded="false">
 
-                            <b>...</b>
-                        </button>
+                                <b>...</b>
+                            </button>
 
 
-                        <ul class="dropdown-menu  flex-column gap-1 p-1" style="min-width: max-content;"
+                            <ul class="dropdown-menu  flex-column gap-1 p-1" style="min-width: max-content;"
                             aria-labelledby="dropdownPostButton">
 
-                            <li>
-                                <form method="post" asp-action="Remove" asp-controller="Groups">
+                                <li>
+                                    <form method="post" asp-action="Remove" asp-controller="Groups">
 
-                                    <input type="hidden" name="UserId" value="@u.User.Id" />
+                                        <input type="hidden" name="UserId" value="@u.User.Id" />
 
-                                    <input type="hidden" name="GroupId" value="@ViewBag.GroupId" />
+                                        <input type="hidden" name="GroupId" value="@ViewBag.GroupId" />
 
-                                    <button class="btn btn-outline-danger" type="submit">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eraser" viewBox="0 0 16 16">
-                                            <path d="M8.086 2.207a2 2 0 0 1 2.828 0l3.879 3.879a2 2 0 0 1 0 2.828l-5.5 5.5A2 2 0 0 1 7.879 15H5.12a2 2 0 0 1-1.414-.586l-2.5-2.5a2 2 0 0 1 0-2.828zm2.121.707a1 1 0 0 0-1.414 0L4.16 7.547l5.293 5.293 4.633-4.633a1 1 0 0 0 0-1.414zM8.746 13.547 3.453 8.254 1.914 9.793a1 1 0 0 0 0 1.414l2.5 2.5a1 1 0 0 0 .707.293H7.88a1 1 0 0 0 .707-.293z" />
-                                        </svg> Remove
-                                    </button>
-                                </form>
-                            </li>
-                        </ul>
-                    </div>
+                                        <button class="btn btn-outline-danger" type="submit">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eraser" viewBox="0 0 16 16">
+                                                <path d="M8.086 2.207a2 2 0 0 1 2.828 0l3.879 3.879a2 2 0 0 1 0 2.828l-5.5 5.5A2 2 0 0 1 7.879 15H5.12a2 2 0 0 1-1.414-.586l-2.5-2.5a2 2 0 0 1 0-2.828zm2.121.707a1 1 0 0 0-1.414 0L4.16 7.547l5.293 5.293 4.633-4.633a1 1 0 0 0 0-1.414zM8.746 13.547 3.453 8.254 1.914 9.793a1 1 0 0 0 0 1.414l2.5 2.5a1 1 0 0 0 .707.293H7.88a1 1 0 0 0 .707-.293z" />
+                                            </svg> Remove
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
 
 
-                }
+                    }
 
             </div>
+            }
         </div>
     </div>
     <br />

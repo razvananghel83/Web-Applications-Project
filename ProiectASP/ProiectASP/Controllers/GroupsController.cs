@@ -200,10 +200,11 @@ namespace ProiectASP.Controllers
             else
                 ViewBag.Member = true;
 
-            if (group.ModeratorId == _userManager.GetUserId(User))
+            if (group.ModeratorId == _userManager.GetUserId(User) )
                 ViewBag.Moderator = true;
             else
                 ViewBag.Moderator = false;
+            ViewBag.Admin = User.IsInRole("Admin");
             ViewBag.Posts = db.Posts.Include("User").Include("User.Profile").Where(p =>p.GroupId == id);
             return View(group);
         }
@@ -276,17 +277,54 @@ namespace ProiectASP.Controllers
             Group group = db.Groups.
                             Where(g => g.Id == id)
                             .First();
-            if (group.ModeratorId == _userManager.GetUserId(User))
+            if (group.ModeratorId == _userManager.GetUserId(User) || User.IsInRole("Admin"))
                 ViewBag.Moderator = true;
             else
                 ViewBag.Moderator = false;
             ViewBag.ModeratorId = group.ModeratorId;
             ViewBag.GroupId = group.Id;
+            ViewBag.CurrentId = _userManager.GetUserId(User);
 
             return View();
 
 
 
+        }
+
+        public IActionResult Leave(int? id)
+        {
+            string userId = _userManager.GetUserId(User);
+            var grup = db.Groups.Where(g=> g.Id == id).FirstOrDefault();
+            if (grup == null)
+            {
+
+                TempData["message"] = "The group does not exist.";
+                TempData["messageType"] = "alert-danger";
+            }
+            else
+            {
+                if (grup.ModeratorId != userId)
+                {
+                    var rm = db.UserGroups.Where(ug => ug.GroupId == id && ug.UserId == userId).First();
+                    if (rm != null)
+                    {
+                        db.Remove(rm);
+                        db.SaveChanges();
+                    }
+                    TempData["message"] = "You have left the group.";
+                    TempData["messageType"] = "alert-success";
+
+                }
+                else
+                {
+
+                    TempData["message"] = "The Moderator can't leave the group";
+                    TempData["messageType"] = "alert-danger";
+                    return RedirectToAction("Show", new { id = id });
+                }
+            }
+            return RedirectToAction("All");
+        
         }
 
         public IActionResult All()
@@ -524,17 +562,26 @@ namespace ProiectASP.Controllers
             var group = db.Groups.Where(g => g.Id == requestUserGroup.GroupId).First();
             var user = db.Users.Where(u => u.Id == requestUserGroup.UserId).First();
 
-            if (group.ModeratorId == _userManager.GetUserId(User))
+            if (ug.UserId != group.ModeratorId)
             {
-                db.UserGroups.Remove(ug);
-                db.SaveChanges();
-                TempData["message"] = "The user " + user.UserName + " has been removed.";
-                TempData["messageType"] = "alert-success";
-                return RedirectToAction("Members", new { id = group.Id });
+                if (group.ModeratorId == _userManager.GetUserId(User) || User.IsInRole("Admin"))
+                {
+                    db.UserGroups.Remove(ug);
+                    db.SaveChanges();
+                    TempData["message"] = "The user " + user.UserName + " has been removed.";
+                    TempData["messageType"] = "alert-success";
+                    return RedirectToAction("Members", new { id = group.Id });
+                }
+                else
+                {
+                    TempData["message"] = "You can not remove this user. Only the moderator can do that.";
+                    TempData["messageType"] = "alert-danger";
+                    return RedirectToAction("Members", new { id = group.Id });
+                }
             }
             else
             {
-                TempData["message"] = "You can not remove this user. Only the moderator can do that.";
+                TempData["message"] = "The moderator can't be removed.";
                 TempData["messageType"] = "alert-danger";
                 return RedirectToAction("Members", new { id = group.Id });
             }
@@ -626,7 +673,7 @@ namespace ProiectASP.Controllers
         {
             Group group = db.Groups.Where(g => g.Id == id).First();
 
-            if (group.ModeratorId == _userManager.GetUserId(User))
+            if (group.ModeratorId == _userManager.GetUserId(User) || User.IsInRole("Admin"))
             {
                 db.Groups.Remove(group);
                 db.SaveChanges();
@@ -649,7 +696,7 @@ namespace ProiectASP.Controllers
         {
             Group group = db.Groups.Where(g => g.Id == id).First();
 
-            if (group.ModeratorId == _userManager.GetUserId(User))
+            if (group.ModeratorId == _userManager.GetUserId(User) || User.IsInRole("Admin"))
             {
                 var groupPosts = db.Posts.Where(p => p.GroupId == id);
                 foreach(var post in groupPosts)
@@ -679,7 +726,7 @@ namespace ProiectASP.Controllers
         {
             Group group = db.Groups.Where(g => g.Id == id).First();
 
-            if (group.ModeratorId == _userManager.GetUserId(User))
+            if (group.ModeratorId == _userManager.GetUserId(User) || User.IsInRole("Admin"))
             {
                 return View(group);
             }
@@ -703,7 +750,7 @@ namespace ProiectASP.Controllers
 
             if (ModelState.IsValid)
             {
-                if (group.ModeratorId == _userManager.GetUserId(User))
+                if (group.ModeratorId == _userManager.GetUserId(User) || User.IsInRole("Admin"))
                 {
                     group.Name = requestGroup.Name;
                     group.Description = requestGroup.Description;
@@ -758,7 +805,7 @@ namespace ProiectASP.Controllers
         {
             Group group = db.Groups.Where(g => g.Id == id).First();
 
-            if (group.ModeratorId == _userManager.GetUserId(User))
+            if (group.ModeratorId == _userManager.GetUserId(User) || User.IsInRole("Admin"))
             {
                 return View(group);
             }
@@ -783,7 +830,7 @@ namespace ProiectASP.Controllers
 
             if (ModelState.IsValid)
             {
-                if (group.ModeratorId == _userManager.GetUserId(User))
+                if (group.ModeratorId == _userManager.GetUserId(User) || User.IsInRole("Admin"))
                 {
                     group.Name = requestGroup.Name;
                     group.Description = requestGroup.Description;
