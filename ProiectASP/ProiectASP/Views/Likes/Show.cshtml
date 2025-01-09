@@ -1,0 +1,36 @@
+﻿@model ProiectASP.Models.UserGroup
+
+
+@if (ViewBag.Message != null)
+{
+    <div class=" p-3 rounded-3 text-center mb-5 @ViewBag.Alert">
+        @ViewBag.Message
+    </div>
+}
+<a class="btn btn-outline-success" asp-controller="Posts" asp-action="Show" asp-route-id="@ViewBag.PostId">Return to post</a>
+<br />
+@* Motorul de cautare *@
+<form method="GET">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search topics or keywords" name="search"
+               value="@ViewBag.Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </div>
+</form>
+
+
+@foreach (var u in ViewBag.Users)
+{
+    <div class="card p-3">
+        <div class="d-flex flex-row gap-2">
+            <a asp-controller="Profiles" asp-action="Show" asp-route-id="@u.Id">
+                <img src="@u.Profile.ProfileImage" alt="profile image" class="rounded-circle"
+                     style="width:50px; height:50px; " />
+            </a>
+            <div style="height: 50px; display: flex; align-items: center;"><b>@u.UserName</b></div>
+        
+        </div>
+    </div>
+    <br />
+    <br />
+}

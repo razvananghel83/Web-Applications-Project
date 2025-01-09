@@ -28,7 +28,7 @@
             <div class="d-flex flex-column gap-1">
                 <div class="d-flex flex-row gap-2">
                     <div style=" display: flex; align-items: center;"><b>@ViewBag.User.UserName</b></div>
-                    @if (ViewBag.User.Id == ViewBag.UserId || ViewBag.EsteAdmin == true)
+                    @if (ViewBag.User.Id == ViewBag.UserId )
                     {
                         <a class="btn btn-outline-secondary" asp-action="Edit" asp-controller="Profiles" asp-route-id="@ViewBag.Profile.Id">edit profile</a>
                     }

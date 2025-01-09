@@ -1,10 +1,25 @@
 ﻿@model ProiectASP.Models.Post
 
+
+<style>
+
+    .hover_link {
+        text-decoration: none;
+        color: black;
+    }
+
+        .hover_link:hover {
+            text-decoration: underline;
+        }
+</style>
+
 <div class="d-flex flex-column align-items-center" >
     <div>
         <div class="d-flex flex-row gap-2">
-            <img src="@ViewBag.Profile.ProfileImage" alt="profile image" class="rounded-circle"
-                 style="width:50px; height:50px; " />
+            <a asp-controller="Profiles" asp-action="Show" asp-route-id="@Model.User.Id">
+                <img src="@ViewBag.Profile.ProfileImage" alt="profile image" class="rounded-circle"
+                     style="width:50px; height:50px; " />
+            </a>
             <div style="height: 50px; display: flex; align-items: center;"><b>@Model.User.UserName</b></div>
             <div style="margin-left:auto;">
                 @if (@Model.UserId == ViewBag.UserId || ViewBag.EsteAdmin == true)
@@ -51,7 +66,7 @@
             </div>
             @if (Model.Image != null)
             {
-                string extension = (Model.Image).Split(".").Last().ToLower();
+                string extension = (Model.Image).Split(".")[1].ToLower();
 
 
                 @if (new[] { "jpg", "jpeg", "png", "gif" }.Contains(extension))
@@ -62,7 +77,6 @@
                 {
                     <video controls style="max-width: 50vw;">
                         <source src="@Model.Image" type="video/mp4" />
-                        Post video
                     </video>
                 }
                 else if (extension == "mp3")
@@ -82,13 +96,42 @@
         <div class="card p-1" style="width:30rem">
             <div class="d-flex flex-row">
                 <p>@Model.Date</p>
-                <button class="btn btn-outline-danger rounded-circle" style="margin-left:auto;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
-                    </svg>
-                </button>
+                @if (ViewBag.liked == false)
+                {
+                    <div style="margin-left:auto;"  >
+                        <form method="post" asp-controller="Likes" asp-action="New">
+                            <input type="hidden" name="PostId" value="@Model.Id" />
+                            <button class="btn btn-outline-danger rounded-circle" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                    <a class="ms-2  hover_link" asp-controller="Likes" asp-action="Show"
+                       asp-route-id="@Model.Id">@ViewBag.nrLikes likes</a>
+                }
+                else
+                {
+
+                    <div style="margin-left:auto;" class="d-flex align-items-center">
+                        <form method="post" asp-controller="Likes" asp-action="Delete">
+                            <input type="hidden" name="userId" value="@ViewBag.UserId" />
+                            <input type="hidden" name="postId" value="@Model.Id" />
+                            <button class="btn btn-outline-danger rounded-circle" style="margin-left:auto;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                                </svg>
+                            </button>
+                          </form>
+                    </div>
+                    <a class="ms-2 hover_link" asp-controller="Likes" asp-action="Show"
+                       asp-route-id="@Model.Id">@ViewBag.nrLikes likes</a>
+                }
             </div>
         </div>
+
+
         <br />
             <form method="post" asp-controller="Posts" asp-action="Show" class="card d-flex flex-row gap-2 p-2" >
 
@@ -109,12 +152,13 @@
 
 
         <div>
-            @*COMENTARII*@
             @foreach (var comm in @Model.Comments)
             {
                 <div class="card d-flex flex-row gap-2 p-2">
-                    <img src="@comm.User.Profile.ProfileImage" alt="profile image" class="rounded-circle"
-                     style="width:50px; height:50px; " />
+                    <a asp-controller="Profiles" asp-action="Show" asp-route-id="@comm.User.Id">
+                        <img src="@comm.User.Profile.ProfileImage" alt="profile image" class="rounded-circle"
+                             style="width:50px; height:50px; " />
+                    </a>
                   
                     <div>
                         <div class="d-flex flex-row ">
@@ -159,5 +203,6 @@
             }
         </div>
     </div>
+
 
 </div>

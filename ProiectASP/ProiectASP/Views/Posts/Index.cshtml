@@ -28,8 +28,10 @@
     {
         <div class="card p-3 mb-4">
             <div class="d-flex flex-row gap-2">
-                <img src="@post.User.Profile.ProfileImage" alt="profile image" class="rounded-circle"
-                     style="width:50px; height:50px;" />
+                <a asp-controller="Profiles" asp-action="Show" asp-route-id="@post.User.Id">
+                    <img src="@post.User.Profile.ProfileImage" alt="profile image" class="rounded-circle"
+                         style="width:50px; height:50px; " />
+                </a>
                 <div class="d-flex align-items-center"><b>@post.User.UserName</b></div>
                 <div style="margin-left:auto;">
                     @if (@post.UserId == ViewBag.UserId || ViewBag.EsteAdmin == true)

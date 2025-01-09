@@ -31,8 +31,11 @@
 {
     <div class="card p-3">
         <div class="d-flex flex-row gap-2">
-            <img src="@u.Profile.ProfileImage" alt="profile image" class="rounded-circle"
-                 style="width:50px; height:50px; " />
+
+            <a asp-controller="Profiles" asp-action="Show" asp-route-id="@u.Id">
+                <img src="@u.Profile.ProfileImage" alt="profile image" class="rounded-circle"
+                     style="width:50px; height:50px; " />
+            </a>
             <div style="height: 50px; display: flex; align-items: center;"><b>@u.UserName</b></div>
             <div style="margin-left:auto;">
 
