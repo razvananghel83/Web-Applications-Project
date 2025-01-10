@@ -19,6 +19,14 @@
 
                 <div class="form-group">
 
+                    <label asp-for="Username" class="form-label">Username</label>
+                    <textarea asp-for="Username" name="newUsername" class="form-control"></textarea>
+                    <span asp-validation-for="Username" class="text-danger"></span>
+
+                </div>
+
+                <div class="form-group">
+
                     <label asp-for="Description" class="form-label">Description</label>
                     <textarea asp-for="Description" name="newDescription" class="form-control"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>

@@ -80,6 +80,8 @@ namespace ProiectASP.Controllers
                 }
 
                 profile.UserId = id;
+                var user = db.ApplicationUsers.Where(u => u.Id ==id ).FirstOrDefault();
+                profile.Username = user.UserName;
                 db.Add(profile);
                 //await db.SaveChangesAsync();
                 db.SaveChanges();
@@ -176,7 +178,7 @@ namespace ProiectASP.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int id, string? newDescription, DateTime? newDob, IFormFile? newProfileImage, bool? newIsPrivate)
+        public async Task<IActionResult> Edit(int id, string? newDescription, DateTime? newDob, IFormFile? newProfileImage, bool? newIsPrivate, string? newUsername)
         {
             var profile = db.Profiles.Find(id);
 
@@ -238,6 +240,10 @@ namespace ProiectASP.Controllers
                     }
                 }
 
+                var User = db.ApplicationUsers.Where(u => u.Id == profile.UserId).FirstOrDefault();
+                profile.Username = newUsername;
+                User.UserName = newUsername;
+                User.NormalizedUserName = User.UserName.ToUpper();
                 db.SaveChanges();
 
                 TempData["message"] = "Profile modified successfully!";

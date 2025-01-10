@@ -6,7 +6,9 @@ namespace ProiectASP.Models
     {
         [Key]
         public int Id { get; set; }
-        
+
+        [Required]
+        public string Username {  get; set; }
         public string Description { get; set; }
 
         [Required]
@@ -16,6 +18,7 @@ namespace ProiectASP.Models
         public string? ProfileImage {  get; set; }
 
         public bool IsPrivate { get; set; }
+
 
 
         //one(profil) to one(user)
