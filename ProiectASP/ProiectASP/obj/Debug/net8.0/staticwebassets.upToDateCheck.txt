@@ -17,11 +17,15 @@ wwwroot\images\c4fb78ca537dca55c2ce1831b43c232d.jpg
 wwwroot\images\chrollo.jpg
 wwwroot\images\chrollo1.jpg
 wwwroot\images\cristian.jpg
+wwwroot\images\cute.gif
 wwwroot\images\Daft Punk - Veridis Quo (Official Audio) - Daft Punk (youtube).mp4
 wwwroot\images\default_group_pic.png
 wwwroot\images\default-profile-pic.jpg
 wwwroot\images\Design fără titlu.png
 wwwroot\images\f99a7de62a225efab227826902c0ffc2.jpg
+wwwroot\images\Fate Zero Ending 1 (online-audio-converter.com).mp3
+wwwroot\images\Fate Zero Ending 1.mp4
+wwwroot\images\image.png
 wwwroot\images\NUEVILETTE PRIMO.png
 wwwroot\images\paul.jpg
 wwwroot\images\simona.jpeg

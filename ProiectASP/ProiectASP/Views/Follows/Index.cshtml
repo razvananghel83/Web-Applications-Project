@@ -27,12 +27,15 @@
 @foreach (var u in ViewBag.Friends)
 {
     <div class="col-4 mb-4">
-
-
-        <div class="card" style="height:100%; width: 100%;">
-
-            <p><i class="bi bi-person"> </i> UserName: @u.UserName</p>
-
+ 
+        <div class="d-flex flex-row gap-2">
+                <a asp-controller="Profiles" asp-action="Show" asp-route-id="@u.Id">
+                    <img src="@u.Profile.ProfileImage" alt="profile image" class="rounded-circle"
+                         style="width:50px; height:50px; " />
+                </a>
+            <div style="height: 50px; display: flex; align-items: center;">
+               <b> <a asp-controller="Profiles" asp-action="Show" asp-route-id="@u.Id"> @u.UserName </a> </b>
+            </div>
         </div>
 
 
@@ -49,22 +52,55 @@
 <div>
     <nav aria-label="Page navigation example">
         <ul class="pagination">
-            <li class="page-item">
-                <a class="page-link" href="@ViewBag.PaginationBaseUrl=1" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                </a>
-            </li>
+            @if (ViewBag.currentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@($"{ViewBag.PaginationBaseUrl}=1")" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            }
+            else
+            {
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            }
 
             @for (int i = 1; i <= ViewBag.lastPage; i++)
             {
-                <li class="page-item"> <a class="page-link" href="@ViewBag.PaginationBaseUrl=@i">@(i)</a> </li>
+                if (i == ViewBag.currentPage)
+                {
+                    <li class="page-item active">
+                        <span class="page-link">@i</span>
+                    </li>
+                }
+                else
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="@($"{ViewBag.PaginationBaseUrl}={i}")">@i</a>
+                    </li>
+                }
             }
 
-            <li class="page-item">
-                <a class="page-link" href="@ViewBag.PaginationBaseUrl=@(ViewBag.lastPage)" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-            </li>
+            @if (ViewBag.currentPage < ViewBag.lastPage)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@($"{ViewBag.PaginationBaseUrl}={ViewBag.lastPage}")" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            }
+            else
+            {
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            }
         </ul>
     </nav>
 </div>
