@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration.UserSecrets;
 using Microsoft.Extensions.Hosting;
 using ProiectASP.Data;
 using ProiectASP.Models;
+using System.Collections.Frozen;
 
 namespace ProiectASP.Controllers
 {
@@ -298,19 +299,28 @@ namespace ProiectASP.Controllers
         public IActionResult Follow(string? id)
         {
             var userId = _userManager.GetUserId(User);
-
+            var following = db.Profiles.Where(p => p.UserId == id).FirstOrDefault();
 
             Follow followRequest = new Follow();
             followRequest.FollowerId = userId;
             followRequest.UserId = id;
-            followRequest.Status = false;
+            if (following.IsPrivate == false)
+            {
+                followRequest.Status = true;
+                TempData["message"] = "User has been followed.";
+                TempData["messageType"] = "alert-success";
 
+            }
+            else
+            {
+                TempData["message"] = "Follow request has been sent.";
+                TempData["messageType"] = "alert-success";
+                followRequest.Status = false;
+            }
 
             db.Follows.Add(followRequest);
             db.SaveChanges();
 
-            TempData["message"] = "Follow request has been sent.";
-            TempData["messageType"] = "alert-success";
 
             return RedirectToAction("AllUsers");
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G+xbXFHTeJAFjU9qalYWc76yZebUbzYA4HMmB4+mev4=",
+  "Hash": "k6xDGbJkz9pdmrtBpaKYJu3UKHW+iiAjBpPEKLSlGes=",
   "Source": "ProiectASP",
   "BasePath": "_content/ProiectASP",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ProiectASP\\wwwroot",
       "Source": "ProiectASP",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "Pattern": "**"
     }
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProiectASP.styles.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProiectASP.styles.css",
       "SourceId": "ProiectASP",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "ProiectASP.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProiectASP.styles.css"
+      "OriginalItemSpec": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProiectASP.styles.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProiectASP.bundle.scp.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProiectASP.bundle.scp.css",
       "SourceId": "ProiectASP",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "ProiectASP.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProiectASP.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProiectASP.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\css\\site.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\favicon.ico",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\099a2383002182c440bf4f728b8d3fb6.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\099a2383002182c440bf4f728b8d3fb6.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/099a2383002182c440bf4f728b8d3fb6.jpg",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\099a2383002182c440bf4f728b8d3fb6.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\1615219.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\1615219.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/1615219.jpg",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1615219.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\2015-Ford-Focus-ST.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\2015-Ford-Focus-ST.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/2015-Ford-Focus-ST.jpg",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2015-Ford-Focus-ST.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\361346.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\361346.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/361346.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\361346.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\6fa049b4086040cb70deec2fe1f22c62.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\6fa049b4086040cb70deec2fe1f22c62.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/6fa049b4086040cb70deec2fe1f22c62.jpg",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\6fa049b4086040cb70deec2fe1f22c62.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\6feb3a773eba120d126ce8176ae0538e.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\6feb3a773eba120d126ce8176ae0538e.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/6feb3a773eba120d126ce8176ae0538e.jpg",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\6feb3a773eba120d126ce8176ae0538e.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\8f3db98568f64f95fb7bfa7faf2afaaf.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\8f3db98568f64f95fb7bfa7faf2afaaf.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/8f3db98568f64f95fb7bfa7faf2afaaf.jpg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8f3db98568f64f95fb7bfa7faf2afaaf.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\8g0te5nnm5na1.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\8g0te5nnm5na1.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/8g0te5nnm5na1.jpg",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8g0te5nnm5na1.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\97655179bbfec5e0ff2607d5d10805df.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\97655179bbfec5e0ff2607d5d10805df.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/97655179bbfec5e0ff2607d5d10805df.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\97655179bbfec5e0ff2607d5d10805df.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\aeb9d5417b4ebae28208b04abeb35c00.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\aeb9d5417b4ebae28208b04abeb35c00.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/aeb9d5417b4ebae28208b04abeb35c00.jpg",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\aeb9d5417b4ebae28208b04abeb35c00.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\audi_r8_9-wide.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\audi_r8_9-wide.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/audi_r8_9-wide.jpg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\audi_r8_9-wide.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Audi-R8-tail-light-street.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Audi-R8-tail-light-street.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/Audi-R8-tail-light-street.jpg",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Audi-R8-tail-light-street.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\bc4ff986c4f6cb1c442d0323c137c20e.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\bc4ff986c4f6cb1c442d0323c137c20e.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/bc4ff986c4f6cb1c442d0323c137c20e.jpg",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bc4ff986c4f6cb1c442d0323c137c20e.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\c4fb78ca537dca55c2ce1831b43c232d.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\c4fb78ca537dca55c2ce1831b43c232d.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/c4fb78ca537dca55c2ce1831b43c232d.jpg",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\images\\c4fb78ca537dca55c2ce1831b43c232d.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\c6dd012a48dc658accce392c711ceeb0.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\c6dd012a48dc658accce392c711ceeb0.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/c6dd012a48dc658accce392c711ceeb0.jpg",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\images\\c6dd012a48dc658accce392c711ceeb0.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\chrollo.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\chrollo.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/chrollo.jpg",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\images\\chrollo.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\chrollo1.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\chrollo1.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/chrollo1.jpg",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\images\\chrollo1.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\cristian.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\cristian.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/cristian.jpg",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cristian.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\cute.gif",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\cute.gif",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/cute.gif",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cute.gif"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Daft Punk - Veridis Quo (Official Audio) - Daft Punk (youtube).mp4",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Daft Punk - Veridis Quo (Official Audio) - Daft Punk (youtube).mp4",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/Daft Punk - Veridis Quo (Official Audio) - Daft Punk (youtube).mp4",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Daft Punk - Veridis Quo (Official Audio) - Daft Punk (youtube).mp4"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\default_group_pic.png",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\default_group_pic.png",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/default_group_pic.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\default_group_pic.png"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\default-profile-pic.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\default-profile-pic.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/default-profile-pic.jpg",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\images\\default-profile-pic.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Design fără titlu.png",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Design fără titlu.png",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/Design fără titlu.png",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Design fără titlu.png"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\f99a7de62a225efab227826902c0ffc2.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\f99a7de62a225efab227826902c0ffc2.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/f99a7de62a225efab227826902c0ffc2.jpg",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f99a7de62a225efab227826902c0ffc2.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Fate Zero Ending 1 (online-audio-converter.com).mp3",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Fate Zero Ending 1 (online-audio-converter.com).mp3",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/Fate Zero Ending 1 (online-audio-converter.com).mp3",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fate Zero Ending 1 (online-audio-converter.com).mp3"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Fate Zero Ending 1.mp4",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Fate Zero Ending 1.mp4",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/Fate Zero Ending 1.mp4",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fate Zero Ending 1.mp4"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\image.png",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\image.png",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/image.png",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\images\\image.png"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\NUEVILETTE PRIMO.png",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\NUEVILETTE PRIMO.png",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/NUEVILETTE PRIMO.png",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\images\\NUEVILETTE PRIMO.png"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\paul.jpg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\paul.jpg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/paul.jpg",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\images\\paul.jpg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\simona.jpeg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\simona.jpeg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/simona.jpeg",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\images\\simona.jpeg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker capitano.png",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker capitano.png",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/sticker capitano.png",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sticker capitano.png"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker gojo.png",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker gojo.png",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/sticker gojo.png",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sticker gojo.png"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker kaeya.png",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker kaeya.png",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/sticker kaeya.png",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sticker kaeya.png"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Viktor - ARCANE.jpeg",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Viktor - ARCANE.jpeg",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/Viktor - ARCANE.jpeg",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Viktor - ARCANE.jpeg"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\wallpaper.png",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\wallpaper.png",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "images/wallpaper.png",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\images\\wallpaper.png"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\js\\site.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2829,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2848,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2867,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2886,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2905,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2943,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2962,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2981,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ProiectASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\",
       "BasePath": "_content/ProiectASP",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
