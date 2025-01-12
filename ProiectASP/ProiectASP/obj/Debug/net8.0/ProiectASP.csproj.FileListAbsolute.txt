@@ -1182,6 +1182,7 @@ D:\Proiecte Visual Studio\Proiect ASP .NET\ProiectASP\ProiectASP\ProiectASP\Proi
 D:\Proiecte Visual Studio\Proiect ASP .NET\ProiectASP\ProiectASP\ProiectASP\ProiectASP\ProiectASP\obj\Debug\net8.0\ProiectASP.pdb
 D:\Proiecte Visual Studio\Proiect ASP .NET\ProiectASP\ProiectASP\ProiectASP\ProiectASP\ProiectASP\obj\Debug\net8.0\ProiectASP.genruntimeconfig.cache
 D:\Proiecte Visual Studio\Proiect ASP .NET\ProiectASP\ProiectASP\ProiectASP\ProiectASP\ProiectASP\obj\Debug\net8.0\ref\ProiectASP.dll
+<<<<<<< HEAD
 C:\Users\andre\Desktop\ProiectASP\ProiectASP\ProiectASP\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\andre\Desktop\ProiectASP\ProiectASP\ProiectASP\bin\Debug\net8.0\appsettings.json
 C:\Users\andre\Desktop\ProiectASP\ProiectASP\ProiectASP\bin\Debug\net8.0\ProiectASP.staticwebassets.runtime.json
@@ -1476,3 +1477,5 @@ C:\Users\andre\Desktop\ProiectASP\ProiectASP\ProiectASP\obj\Debug\net8.0\refint\
 C:\Users\andre\Desktop\ProiectASP\ProiectASP\ProiectASP\obj\Debug\net8.0\ProiectASP.pdb
 C:\Users\andre\Desktop\ProiectASP\ProiectASP\ProiectASP\obj\Debug\net8.0\ProiectASP.genruntimeconfig.cache
 C:\Users\andre\Desktop\ProiectASP\ProiectASP\ProiectASP\obj\Debug\net8.0\ref\ProiectASP.dll
+=======
+>>>>>>> 1ef002340815a69d2c1068d11c24cc90315d7fd6
