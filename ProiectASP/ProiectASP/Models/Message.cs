@@ -7,6 +7,7 @@ namespace ProiectASP.Models
 
         [Key]
         public int Id { get; set; }
+        [Required(ErrorMessage = "The message can't be empty.")]
         public string Content { get; set; }
 
         public DateTime Date { get; set; }

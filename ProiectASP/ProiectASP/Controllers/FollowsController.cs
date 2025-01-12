@@ -58,7 +58,7 @@ namespace ProiectASP.Controllers
                 List<string> FriendIDS = UserIDs
                             .Where(u => Friends(userId, u))
                             .ToList();
-                friends = db.ApplicationUsers.Where
+                friends = db.ApplicationUsers.Include("Profile").Where
                             (
                                 u => FriendIDS.Contains((string)u.Id)
                             );
@@ -71,7 +71,7 @@ namespace ProiectASP.Controllers
                 List<string> FriendIDS = UserIDs
                             .Where(u => Friends(userId, u))
                             .ToList();
-                friends = db.ApplicationUsers.Where
+                friends = db.ApplicationUsers.Include("Profile").Where
                             (
                                 u => FriendIDS.Contains((string)u.Id)
                             );
@@ -96,7 +96,7 @@ namespace ProiectASP.Controllers
         }
 
 
-        // vedem prietenii din aplicatie 
+        // vedem followerii din aplicatie 
         public IActionResult Followers(string? id)
         {
             if (TempData.ContainsKey("message"))
@@ -224,6 +224,14 @@ namespace ProiectASP.Controllers
         public IActionResult AllUsers()
         {
 
+            var prfls = db.Profiles.Select(p => p.UserId).ToList();
+            var userswithoutprofile = db.ApplicationUsers.Where(u => !prfls.Contains(u.Id));
+            foreach (var u in userswithoutprofile)
+            {
+                db.Remove(u);
+                
+            }
+            db.SaveChanges();
 
             if (TempData.ContainsKey("message"))
             {

@@ -1,4 +1,4 @@
-﻿
+﻿@model ProiectASP.Models.Message
 @if (ViewBag.Message != null)
 {
     <div class="alert-success p-3 rounded-3 text-center mb-5 @ViewBag.Alert">
@@ -97,9 +97,8 @@
             <input type="hidden" name="UserId" value="@ViewBag.CurrentUser.Id" />
             <input type="hidden" name="ConversationId" value="@ViewBag.CurrentConversation" />
 
-
-            <textarea class="form-control" name="Content" placeholder="Message...   "
-                      style="height:auto; overflow-y:hidden; resize:vertical;"></textarea>
+            <input asp-for="Content" class="form-control" style="height:auto; overflow-y:hidden; resize:vertical;" />
+            <span asp-validation-for="Content" class="text-danger"></span>
              <div>
             <button class="btn btn-outline-primary rounded-circle" type="submit" style="width:auto; ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">

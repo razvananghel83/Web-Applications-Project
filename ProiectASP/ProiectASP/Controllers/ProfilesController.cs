@@ -51,6 +51,8 @@ namespace ProiectASP.Controllers
         public async Task<IActionResult> New(Profile profile, IFormFile profilePicture, string? id)
         {
 
+
+            ModelState.Clear();
             profile.ProfileImage = "/images/default-profile-pic.jpg";
             if(profile.DateOfBirth == null)
             {
