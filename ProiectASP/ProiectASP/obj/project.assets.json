@@ -8363,11 +8363,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\ProiectASP.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\ProiectASP.csproj",
       "projectName": "ProiectASP",
-      "projectPath": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\ProiectASP.csproj",
+      "projectPath": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\ProiectASP.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\obj\\",
+      "outputPath": "C:\\Users\\andre\\Desktop\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8455,13 +8455,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\andre\\Desktop\\FMI\\AN 2\\SEM I\\ASP\\Proiect\\ProiectASP\\ProiectASP\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
