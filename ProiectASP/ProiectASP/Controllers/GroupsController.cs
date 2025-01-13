@@ -122,7 +122,7 @@ namespace ProiectASP.Controllers
 
                 List<int> groupsID = db.Groups.Where
                                     (
-                                        g => g.Name.Contains(search) 
+                                        g => g.Name.Contains(search)
                                     )
                                     .Select(g => (int)g.Id).ToList();
                 List<int> groupsDescriptionID = db.Groups.Where
@@ -133,23 +133,23 @@ namespace ProiectASP.Controllers
 
 
                 var groups1 = db.UserGroups.Include("Group").Include("User").
-                    Where(ug => groupsID.Contains((int)ug.GroupId) 
+                    Where(ug => groupsID.Contains((int)ug.GroupId)
                                     && ug.UserId == userId
                                         && ug.Status == true)
                                                         .OrderByDescending(ug => ug.GroupId);
                 var groups2 = db.UserGroups.Include("Group").Include("User").
-                    Where(ug => groupsDescriptionID.Contains((int)ug.GroupId) 
+                    Where(ug => groupsDescriptionID.Contains((int)ug.GroupId)
                                     && ug.UserId == userId
-                                       && ug.Status==true)
+                                       && ug.Status == true)
                                                         .OrderByDescending(ug => ug.GroupId);
-                 groups = groups1.Concat(groups2);
+                groups = groups1.Concat(groups2);
 
             }
             else
             {
-                 groups = db.UserGroups.Include("Group").Include("User")
-                                    .Where(ug => ug.UserId == userId && ug.Status == true)
-                                    .OrderByDescending(ug => ug.GroupId);
+                groups = db.UserGroups.Include("Group").Include("User")
+                                   .Where(ug => ug.UserId == userId && ug.Status == true)
+                                   .OrderByDescending(ug => ug.GroupId);
 
             }
             ViewBag.Groups = groups;
@@ -193,7 +193,18 @@ namespace ProiectASP.Controllers
                             Where(g => g.Id == id)
                             .First();
 
+
+            if (TempData.ContainsKey("message"))
+            {
+                ViewBag.Message = TempData["message"];
+                ViewBag.Alert = TempData["messageType"];
+            }
+
             var member = db.UserGroups.Where(ug => ug.GroupId == id && ug.UserId == _userManager.GetUserId(User) && ug.Status==true);
+            var isSubscribed = db.UserGroups.Any(ug => ug.UserId == _userManager.GetUserId(User) 
+                    && ug.GroupId == id && ug.IsSubscribed == true);
+            ViewBag.IsSubscribed = isSubscribed;
+
 
             if (member.Count() == 0)
                 ViewBag.Member = false;
@@ -419,6 +430,7 @@ namespace ProiectASP.Controllers
             usergroup.UserId = _userManager.GetUserId(User);
             usergroup.GroupId = id;
             usergroup.Status = false;
+            usergroup.IsSubscribed = false;
 
 
             db.UserGroups.Add(usergroup);
@@ -952,9 +964,10 @@ namespace ProiectASP.Controllers
                 db.Posts.Add(post);
                 db.SaveChanges();
 
+                // trimit notificari la userii care sunt abonati la grup pentru ca a fost adaugata o postare noua
+                NotifySubscribers( post.Id );
 
-
-                TempData["message"] = "The post has been created.";
+                TempData["message"] = "The post has been created succesfully!";
                 TempData["messageType"] = "alert-success";
                 var ID = post.GroupId;
                 return RedirectToAction("Show", new { id=ID });
@@ -1054,5 +1067,62 @@ namespace ProiectASP.Controllers
             return View();
 
         }
+
+
+        [HttpPost]
+        public IActionResult Subscribe(int groupId)
+        {
+            var userId = _userManager.GetUserId(User);
+            var subscription = db.UserGroups.FirstOrDefault(ug => ug.UserId == userId && ug.GroupId == groupId);
+
+            if (subscription == null)
+            {
+                TempData["message"] = "You are not a member of this group!";
+                TempData["messageType"] = "alert-danger";
+                return RedirectToAction("Show", new { id = groupId });
+            }
+
+            subscription.IsSubscribed = !subscription.IsSubscribed.GetValueOrDefault();
+            db.SaveChanges();
+
+            if (subscription.IsSubscribed.GetValueOrDefault())
+            {
+                TempData["message"] = "Subscribed successfully!";
+                TempData["messageType"] = "alert-success";
+            }
+            else
+            {
+                TempData["message"] = "Unsubscribed successfully!";
+                TempData["messageType"] = "alert-success";
+            }
+
+            return RedirectToAction("Show", new { id = groupId });
+        }
+
+        public void NotifySubscribers(int postId)
+        {
+            var post = db.Posts.Include(p => p.User).Include(p => p.Group).FirstOrDefault(p => p.Id == postId);
+            if (post == null) return;
+
+            var subscriptions = db.UserGroups
+                                  .Where(s => s.GroupId == post.GroupId && s.IsSubscribed == true)
+                                  .Select(s => s.User)
+                                  .ToList();
+
+            foreach (var user in subscriptions)
+            {
+                var notification = new Notification
+                {
+                    UserId = user.Id,
+                    Content = $"{post.User.UserName} has posted in {post.Group.Name}.",
+                    EventDate = DateTime.Now,
+                    PostId = postId
+                };
+                db.Notifications.Add(notification);
+            }
+            db.SaveChanges();
+        }
+
+
     }
 }

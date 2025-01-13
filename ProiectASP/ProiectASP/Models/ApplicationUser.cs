@@ -36,5 +36,8 @@ namespace ProiectASP.Models
 
         public virtual ICollection<Follow>? Follows { get; set; }
         public virtual ICollection<Follow>? Followers { get; set; }
+
+        // un user are mai multe notificari
+        public virtual ICollection<Notification>? Notifications { get; set; }
     }
 }

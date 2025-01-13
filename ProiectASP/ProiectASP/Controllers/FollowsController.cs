@@ -6,7 +6,6 @@ using Microsoft.Extensions.Configuration.UserSecrets;
 using Microsoft.Extensions.Hosting;
 using ProiectASP.Data;
 using ProiectASP.Models;
-using System.Collections.Frozen;
 
 namespace ProiectASP.Controllers
 {
@@ -519,5 +518,56 @@ namespace ProiectASP.Controllers
             }
             return false;
         }
+    
+
+        [HttpPost]
+        public IActionResult Unfollow(string userId)
+        {
+
+            var currentUserId = _userManager.GetUserId(User);
+            var followRequest = db.Follows.FirstOrDefault(f => f.FollowerId == currentUserId && f.UserId == userId);
+
+            if (followRequest != null)
+            {
+                db.Follows.Remove(followRequest);
+                db.SaveChanges();
+                TempData["message"] = "You have successfully unfollowed the user.";
+                TempData["messageType"] = "alert-success";
+            }
+            else
+            {
+                TempData["message"] = "Follow relationship not found.";
+                TempData["messageType"] = "alert-danger";
+            }
+
+            return RedirectToAction("AllUsers");
+        }
+
+        public IActionResult RemoveFollower(string userId)
+
+        {
+
+            var currentUserId = _userManager.GetUserId(User);
+            var followRequest = db.Follows.FirstOrDefault(f => f.FollowerId == userId && f.UserId == currentUserId);
+
+            if (followRequest != null)
+            {
+                db.Follows.Remove(followRequest);
+                db.SaveChanges();
+                TempData["message"] = "You have successfully unfollowed the user.";
+                TempData["messageType"] = "alert-success";
+            }
+
+            else
+            {
+                TempData["message"] = "Follow relationship not found.";
+                TempData["messageType"] = "alert-danger";
+            }
+
+            return RedirectToAction("AllUsers");
+        }
+
     }
+
 }
+

@@ -614,14 +614,14 @@ namespace ProiectASP.Controllers
                         post.Image = databaseFileName;
                     }
 
-                    TempData["message"] = "Articolul a fost modificat";
+                    TempData["message"] = "Your post has been changed!";
                     TempData["messageType"] = "alert-success";
                     db.SaveChanges();
                     return RedirectToAction("Index");
                 }
                 else
                 {
-                    TempData["message"] = "Nu aveti dreptul sa faceti modificari asupra unui articol care nu va apartine";
+                    TempData["message"] = "NYou do not have the right to modify a post that does not belong to you!";
                     TempData["messageType"] = "alert-danger";
                     return RedirectToAction("Index");
                 }

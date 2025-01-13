@@ -25,25 +25,22 @@
                         <b>...</b>
                     </button>
 
-                    <ul class="dropdown-menu  flex-column gap-1 p-1" style="min-width: max-content;"
+                    <ul class="dropdown-menu  flex-column gap-1 p-2" style="min-width: max-content;"
                     aria-labelledby="dropdownPostButton">
 
                         @if (ViewBag.Moderator == true || ViewBag.Admin == true)
                         {
-
-
-
-                            <li>
-                                <a class="btn btn-outline-primary" asp-controller="Groups" asp-action="EditShow" asp-route-id="@Model.Id">Edit</a>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-primary w-100" asp-controller="Groups" asp-action="EditShow" asp-route-id="@Model.Id">Edit</a>
                             </li>
-                            <li>
+                            <li class="mb-2">
 
                                 <form method="post" asp-controller="Groups" asp-action="DeleteShow" asp-route-id="@Model.Id">
 
                                     <button class="btn btn-outline-danger" type="submit">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
                                             <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
-                                        </svg>Delete
+                                        </svg> Delete
                                     </button>
 
                                 </form>
@@ -55,6 +52,23 @@
                                 <a class="btn btn-outline-danger" asp-controller="Groups" asp-action="Leave" asp-route-id="@Model.Id">Leave</a>
                             </li>
                         }
+
+                        <li>
+
+                            <form method="post" asp-controller="Groups" asp-action="Subscribe" asp-route-id="@Model.Id">
+                                <input type="hidden" name="groupId" value="@Model.Id" />
+                                @if (ViewBag.IsSubscribed == true)
+                                {
+                                    <button class="btn btn-outline-info w-100" type="submit">Unsubscribe</button>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-outline-info w-100" type="submit">Subscribe</button>
+                                }
+                            </form>
+                            
+                        </li>
+
                     </ul>
                 </div>
             }
@@ -73,12 +87,14 @@
 <br />
 <div class="d-flex flex-row gap-2">
 
-<a class="btn btn-outline-primary" asp-controller="Groups" asp-action="Members" asp-route-id="@Model.Id">Members</a>
-@if(ViewBag.Member)
-{
-    <br />
-    <a class="btn btn-outline-primary" asp-controller="Groups" asp-action="AddPost" asp-route-id="@Model.Id">Add Post</a>
-}
+    <a class="btn btn-outline-primary" asp-controller="Groups" asp-action="Members" asp-route-id="@Model.Id">Members</a>
+
+    @if(ViewBag.Member)
+    {
+        <br />
+        <a class="btn btn-outline-primary" asp-controller="Groups" asp-action="AddPost" asp-route-id="@Model.Id">Add Post</a>
+    }
+
 </div>
 <br />
 

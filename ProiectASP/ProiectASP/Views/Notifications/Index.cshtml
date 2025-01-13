@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Notification>
+
+<h2>Notifications</h2>
+<br />
+
+@if (!Model.Any())
+{
+    <p>You have no notifications from your groups.</p>
+}
+else
+{
+    <ul class="list-group">
+
+        @foreach (var notification in Model)
+        {
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                <div>
+
+                    <p>@notification.Content</p>
+                    <small class="text-muted">@notification.EventDate.ToString("g")</small>
+
+                </div>
+
+                <div>
+                    <a asp-controller="Posts" asp-action="Show" asp-route-id="@notification.PostId" class="btn btn-link"> 
+                        Check it out! </a>
+                </div>
+
+            </li>
+        }
+
+    </ul>
+}
+

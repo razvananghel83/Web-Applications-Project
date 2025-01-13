@@ -1,38 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\",
+  "WorkspaceRootPath": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\test\\proiectasp\\proiectasp\\proiectasp\\controllers\\followscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\controllers\\followscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|d:\\proiecte visual studio\\proiect asp .net\\proiectasp\\proiectasp\\proiectasp\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\test\\proiectasp\\proiectasp\\proiectasp\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|d:\\proiecte visual studio\\proiect asp .net\\proiectasp\\proiectasp\\proiectasp\\views\\groups\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\groups\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\test\\proiectasp\\proiectasp\\proiectasp\\views\\posts\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\posts\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|d:\\proiecte visual studio\\proiect asp .net\\proiectasp\\proiectasp\\proiectasp\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\test\\proiectasp\\proiectasp\\proiectasp\\controllers\\profilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\controllers\\profilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|d:\\proiecte visual studio\\proiect asp .net\\proiectasp\\proiectasp\\proiectasp\\views\\notifications\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\notifications\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\test\\proiectasp\\proiectasp\\proiectasp\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_ProiectASP_5a822dcf_3113_4bbe_9981_039060540add/True/SqlTable/dbo.Posts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\test\\proiectasp\\proiectasp\\proiectasp\\views\\conversations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\conversations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_ProiectASP_5a822dcf_3113_4bbe_9981_039060540add/True/SqlTable/dbo.Notifications.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\test\\proiectasp\\proiectasp\\proiectasp\\views\\follows\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\follows\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|c:\\users\\andre\\desktop\\test\\proiectasp\\proiectasp\\proiectasp\\views\\follows\\followers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\follows\\followers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|d:\\proiecte visual studio\\proiect asp .net\\proiectasp\\proiectasp\\proiectasp\\views\\groups\\addpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2B9F92-B1D6-4D56-827A-4E7EB74556FE}|ProiectASP\\ProiectASP.csproj|solutionrelative:proiectasp\\views\\groups\\addpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,111 +36,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1099,
-          "SelectedChildIndex": 7,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProfilesController.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Controllers\\ProfilesController.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Controllers\\ProfilesController.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Controllers\\ProfilesController.cs",
-              "RelativeToolTip": "ProiectASP\\Controllers\\ProfilesController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwDYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T10:26:03.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Models\\Message.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Models\\Message.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Models\\Message.cs",
-              "RelativeToolTip": "ProiectASP\\Models\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T10:22:36.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Posts\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProiectASP\\Views\\Posts\\Index.cshtml",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Posts\\Index.cshtml",
-              "RelativeToolTip": "ProiectASP\\Views\\Posts\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T10:12:20.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Conversations\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProiectASP\\Views\\Conversations\\Index.cshtml",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Conversations\\Index.cshtml",
-              "RelativeToolTip": "ProiectASP\\Views\\Conversations\\Index.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGMAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T10:07:44.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Show.cshtml",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Posts\\Show.cshtml",
-              "RelativeDocumentMoniker": "ProiectASP\\Views\\Posts\\Show.cshtml",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Posts\\Show.cshtml",
-              "RelativeToolTip": "ProiectASP\\Views\\Posts\\Show.cshtml",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAI4AAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T10:07:23.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Followers.cshtml",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Follows\\Followers.cshtml",
-              "RelativeDocumentMoniker": "ProiectASP\\Views\\Follows\\Followers.cshtml",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Follows\\Followers.cshtml",
-              "RelativeToolTip": "ProiectASP\\Views\\Follows\\Followers.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T10:05:41.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Follows\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProiectASP\\Views\\Follows\\Index.cshtml",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Follows\\Index.cshtml",
-              "RelativeToolTip": "ProiectASP\\Views\\Follows\\Index.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T10:04:34.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FollowsController.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Controllers\\FollowsController.cs",
-              "RelativeDocumentMoniker": "ProiectASP\\Controllers\\FollowsController.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\Controllers\\FollowsController.cs",
-              "RelativeToolTip": "ProiectASP\\Controllers\\FollowsController.cs",
-              "ViewState": "AgIAAC4BAAAAAAAAAAAswEIBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T10:03:13.479Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1099,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -155,6 +45,88 @@
             {
               "$type": "Bookmark",
               "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Groups\\Show.cshtml",
+              "RelativeDocumentMoniker": "ProiectASP\\Views\\Groups\\Show.cshtml",
+              "ToolTip": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Groups\\Show.cshtml",
+              "RelativeToolTip": "ProiectASP\\Views\\Groups\\Show.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T18:47:12.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.Posts.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_ProiectASP_5a822dcf_3113_4bbe_9981_039060540add/True/SqlTable/dbo.Posts.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_ProiectASP_5a822dcf_3113_4bbe_9981_039060540add/True/SqlTable/dbo.Posts.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-13T18:10:56.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Notifications.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_ProiectASP_5a822dcf_3113_4bbe_9981_039060540add/True/SqlTable/dbo.Notifications.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_ProiectASP_5a822dcf_3113_4bbe_9981_039060540add/True/SqlTable/dbo.Notifications.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-13T18:06:51.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Controllers\\PostsController.cs",
+              "ToolTip": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "ProiectASP\\Controllers\\PostsController.cs",
+              "ViewState": "AgIAAHgCAAAAAAAAAAAcwIMCAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:57:26.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Notifications\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProiectASP\\Views\\Notifications\\Index.cshtml",
+              "ToolTip": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Notifications\\Index.cshtml",
+              "RelativeToolTip": "ProiectASP\\Views\\Notifications\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T17:53:31.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddPost.cshtml",
+              "DocumentMoniker": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Groups\\AddPost.cshtml",
+              "RelativeDocumentMoniker": "ProiectASP\\Views\\Groups\\AddPost.cshtml",
+              "ToolTip": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\Views\\Groups\\AddPost.cshtml",
+              "RelativeToolTip": "ProiectASP\\Views\\Groups\\AddPost.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T17:51:36.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "ProiectASP\\Controllers\\GroupsController.cs",
+              "ToolTip": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "ProiectASP\\Controllers\\GroupsController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAQwMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:26:06.883Z",
+              "EditorCaption": ""
             }
           ]
         },

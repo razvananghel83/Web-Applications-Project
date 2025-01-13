@@ -1,388 +1,420 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProiectASP.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ProiectASP.bundle.scp.css"
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProiectASP.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProiectASP.r9jeu4omyc.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\css\\site.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\favicon.ico",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\099a2383002182c440bf4f728b8d3fb6.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\099a2383002182c440bf4f728b8d3fb6.jpg",
       "PackagePath": "staticwebassets\\images\\099a2383002182c440bf4f728b8d3fb6.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\1615219.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\1615219.jpg",
       "PackagePath": "staticwebassets\\images\\1615219.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\2015-Ford-Focus-ST.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\2015-Ford-Focus-ST.jpg",
       "PackagePath": "staticwebassets\\images\\2015-Ford-Focus-ST.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\361346.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\20230820_110719.jpg",
+      "PackagePath": "staticwebassets\\images\\20230820_110719.jpg"
+    },
+    {
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\361346.jpg",
       "PackagePath": "staticwebassets\\images\\361346.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\6fa049b4086040cb70deec2fe1f22c62.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\6fa049b4086040cb70deec2fe1f22c62.jpg",
       "PackagePath": "staticwebassets\\images\\6fa049b4086040cb70deec2fe1f22c62.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\6feb3a773eba120d126ce8176ae0538e.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\6feb3a773eba120d126ce8176ae0538e.jpg",
       "PackagePath": "staticwebassets\\images\\6feb3a773eba120d126ce8176ae0538e.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\8f3db98568f64f95fb7bfa7faf2afaaf.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\8f3db98568f64f95fb7bfa7faf2afaaf.jpg",
       "PackagePath": "staticwebassets\\images\\8f3db98568f64f95fb7bfa7faf2afaaf.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\8g0te5nnm5na1.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\8g0te5nnm5na1.jpg",
       "PackagePath": "staticwebassets\\images\\8g0te5nnm5na1.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\97655179bbfec5e0ff2607d5d10805df.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\97655179bbfec5e0ff2607d5d10805df.jpg",
       "PackagePath": "staticwebassets\\images\\97655179bbfec5e0ff2607d5d10805df.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Audi-R8-tail-light-street.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Audi-R8-tail-light-street.jpg",
       "PackagePath": "staticwebassets\\images\\Audi-R8-tail-light-street.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Daft Punk - Veridis Quo (Official Audio) - Daft Punk (youtube).mp4",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\DSC_0170.JPG",
+      "PackagePath": "staticwebassets\\images\\DSC_0170.JPG"
+    },
+    {
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Daft Punk - Veridis Quo (Official Audio) - Daft Punk (youtube).mp4",
       "PackagePath": "staticwebassets\\images\\Daft Punk - Veridis Quo (Official Audio) - Daft Punk (youtube).mp4"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Design fără titlu.png",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Design fără titlu.png",
       "PackagePath": "staticwebassets\\images\\Design fără titlu.png"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Fate Zero Ending 1 (online-audio-converter.com).mp3",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Fate Zero Ending 1 (online-audio-converter.com).mp3",
       "PackagePath": "staticwebassets\\images\\Fate Zero Ending 1 (online-audio-converter.com).mp3"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Fate Zero Ending 1.mp4",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Fate Zero Ending 1.mp4",
       "PackagePath": "staticwebassets\\images\\Fate Zero Ending 1.mp4"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\NUEVILETTE PRIMO.png",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\IMG-20250107-WA0012.jpeg",
+      "PackagePath": "staticwebassets\\images\\IMG-20250107-WA0012.jpeg"
+    },
+    {
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\NUEVILETTE PRIMO.png",
       "PackagePath": "staticwebassets\\images\\NUEVILETTE PRIMO.png"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Viktor - ARCANE.jpeg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\Viktor - ARCANE.jpeg",
       "PackagePath": "staticwebassets\\images\\Viktor - ARCANE.jpeg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\aeb9d5417b4ebae28208b04abeb35c00.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\aeb9d5417b4ebae28208b04abeb35c00.jpg",
       "PackagePath": "staticwebassets\\images\\aeb9d5417b4ebae28208b04abeb35c00.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\audi_r8_9-wide.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\armand.jpg",
+      "PackagePath": "staticwebassets\\images\\armand.jpg"
+    },
+    {
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\atisor.jpg",
+      "PackagePath": "staticwebassets\\images\\atisor.jpg"
+    },
+    {
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\audi_r8_9-wide.jpg",
       "PackagePath": "staticwebassets\\images\\audi_r8_9-wide.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\bc4ff986c4f6cb1c442d0323c137c20e.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\bc4ff986c4f6cb1c442d0323c137c20e.jpg",
       "PackagePath": "staticwebassets\\images\\bc4ff986c4f6cb1c442d0323c137c20e.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\c4fb78ca537dca55c2ce1831b43c232d.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\c4fb78ca537dca55c2ce1831b43c232d.jpg",
       "PackagePath": "staticwebassets\\images\\c4fb78ca537dca55c2ce1831b43c232d.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\c6dd012a48dc658accce392c711ceeb0.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\c6dd012a48dc658accce392c711ceeb0.jpg",
       "PackagePath": "staticwebassets\\images\\c6dd012a48dc658accce392c711ceeb0.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\chrollo.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\chrollo.jpg",
       "PackagePath": "staticwebassets\\images\\chrollo.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\chrollo1.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\chrollo1.jpg",
       "PackagePath": "staticwebassets\\images\\chrollo1.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\cristian.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\cristian.jpg",
       "PackagePath": "staticwebassets\\images\\cristian.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\cute.gif",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\cute.gif",
       "PackagePath": "staticwebassets\\images\\cute.gif"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\default-profile-pic.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\default-profile-pic.jpg",
       "PackagePath": "staticwebassets\\images\\default-profile-pic.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\default_group_pic.png",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\default_group_pic.png",
       "PackagePath": "staticwebassets\\images\\default_group_pic.png"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\f99a7de62a225efab227826902c0ffc2.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\f99a7de62a225efab227826902c0ffc2.jpg",
       "PackagePath": "staticwebassets\\images\\f99a7de62a225efab227826902c0ffc2.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\image.png",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\image.png",
       "PackagePath": "staticwebassets\\images\\image.png"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\paul.jpg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\irene.jpg",
+      "PackagePath": "staticwebassets\\images\\irene.jpg"
+    },
+    {
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\paul.jpg",
       "PackagePath": "staticwebassets\\images\\paul.jpg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\simona.jpeg",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\pisici.jpg",
+      "PackagePath": "staticwebassets\\images\\pisici.jpg"
+    },
+    {
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\simona.jpeg",
       "PackagePath": "staticwebassets\\images\\simona.jpeg"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker capitano.png",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker capitano.png",
       "PackagePath": "staticwebassets\\images\\sticker capitano.png"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker gojo.png",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker gojo.png",
       "PackagePath": "staticwebassets\\images\\sticker gojo.png"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker kaeya.png",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\sticker kaeya.png",
       "PackagePath": "staticwebassets\\images\\sticker kaeya.png"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\wallpaper.png",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\images\\wallpaper.png",
       "PackagePath": "staticwebassets\\images\\wallpaper.png"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\js\\site.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Desktop\\test\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Proiecte Visual Studio\\Proiect ASP .NET\\ProiectASP\\ProiectASP\\ProiectASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProiectASP.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProiectASP.Microsoft.AspNetCore.StaticWebAssets.props",

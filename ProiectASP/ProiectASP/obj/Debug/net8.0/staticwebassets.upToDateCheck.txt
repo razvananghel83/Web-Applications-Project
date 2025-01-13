@@ -3,6 +3,7 @@ wwwroot\favicon.ico
 wwwroot\images\099a2383002182c440bf4f728b8d3fb6.jpg
 wwwroot\images\1615219.jpg
 wwwroot\images\2015-Ford-Focus-ST.jpg
+wwwroot\images\20230820_110719.jpg
 wwwroot\images\361346.jpg
 wwwroot\images\6fa049b4086040cb70deec2fe1f22c62.jpg
 wwwroot\images\6feb3a773eba120d126ce8176ae0538e.jpg
@@ -10,10 +11,13 @@ wwwroot\images\8f3db98568f64f95fb7bfa7faf2afaaf.jpg
 wwwroot\images\8g0te5nnm5na1.jpg
 wwwroot\images\97655179bbfec5e0ff2607d5d10805df.jpg
 wwwroot\images\aeb9d5417b4ebae28208b04abeb35c00.jpg
+wwwroot\images\armand.jpg
+wwwroot\images\atisor.jpg
 wwwroot\images\audi_r8_9-wide.jpg
 wwwroot\images\Audi-R8-tail-light-street.jpg
 wwwroot\images\bc4ff986c4f6cb1c442d0323c137c20e.jpg
 wwwroot\images\c4fb78ca537dca55c2ce1831b43c232d.jpg
+wwwroot\images\c6dd012a48dc658accce392c711ceeb0.jpg
 wwwroot\images\chrollo.jpg
 wwwroot\images\chrollo1.jpg
 wwwroot\images\cristian.jpg
@@ -22,12 +26,16 @@ wwwroot\images\Daft Punk - Veridis Quo (Official Audio) - Daft Punk (youtube).mp
 wwwroot\images\default_group_pic.png
 wwwroot\images\default-profile-pic.jpg
 wwwroot\images\Design fără titlu.png
+wwwroot\images\DSC_0170.JPG
 wwwroot\images\f99a7de62a225efab227826902c0ffc2.jpg
 wwwroot\images\Fate Zero Ending 1 (online-audio-converter.com).mp3
 wwwroot\images\Fate Zero Ending 1.mp4
 wwwroot\images\image.png
+wwwroot\images\IMG-20250107-WA0012.jpeg
+wwwroot\images\irene.jpg
 wwwroot\images\NUEVILETTE PRIMO.png
 wwwroot\images\paul.jpg
+wwwroot\images\pisici.jpg
 wwwroot\images\simona.jpeg
 wwwroot\images\sticker capitano.png
 wwwroot\images\sticker gojo.png

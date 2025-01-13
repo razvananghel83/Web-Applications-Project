@@ -1,15 +1,13 @@
-﻿
-
-<style>
+﻿<style>
 
     .hover_link
     {
-        text-decoration:none;
-        color: black;
+    text-decoration:none;
+    color: black;
     }
 
     .hover_link:hover {
-        text-decoration: underline;
+    text-decoration: underline;
     }
 </style>
 
@@ -24,7 +22,7 @@
     <div class="card p-3" style="width: 32rem;">
         <div class="d-flex flex-row gap-2">
             <img src="@ViewBag.Profile.ProfileImage" alt="profile image" class="rounded-circle"
-                 style="width:75px; height:75px; " />
+            style="width:75px; height:75px; " />
             <div class="d-flex flex-column gap-2">
                 <div class="d-flex flex-row gap-3">
                     <div style=" display: flex; align-items: center;"><b>@ViewBag.User.UserName</b></div>
@@ -44,6 +42,27 @@
                     }
                 </div>
 
+
+                <!-- Butoane de follow -->
+                @if ( ViewBag.Profile.UserId != ViewBag.UserId )
+                {
+                    <div style="display: flex; gap: 10px;">
+
+                        <form method="post" asp-controller="Follows" asp-action="Unfollow">
+                            <input type="hidden" name="UserId" value="@ViewBag.User.Id" />
+                            <button type="submit" class="btn btn-primary"> Unfollow </button>
+                        </form>
+
+                        <form method="post" asp-controller="Follows" asp-action="RemoveFollower">
+                            <input type="hidden" name="UserId" value="@ViewBag.User.Id" />
+                            <button type="submit" class="btn btn-primary"> Remove follower </button>
+                        </form>
+
+                    </div>
+                }
+
+
+                <!-- Statistici foloweri -->
                 <div class="d-flex flex-row gap-2">
                     <a>@ViewBag.NrPosts posts</a>
                     @if (ViewBag.canSeePosts != true)
@@ -57,10 +76,15 @@
                         <a class="hover_link" asp-action="Following" asp-controller="Follows" asp-route-id="@ViewBag.User.Id">@ViewBag.NrFollowing following</a>
                     }
                 </div>   
+
                 <div>@ViewBag.Profile.Description</div>
+
             </div>
         </div>
+ 
     </div>
+
+
     @if(ViewBag.canSeePosts == true)
     {
         @foreach (var post in ViewBag.Posts)

@@ -380,6 +380,35 @@ namespace ProiectASP.Data.Migrations
                     b.ToTable("Messages");
                 });
 
+            modelBuilder.Entity("ProiectASP.Models.Notification", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("EventDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("PostId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Notifications");
+                });
+
             modelBuilder.Entity("ProiectASP.Models.Post", b =>
                 {
                     b.Property<int>("Id")
@@ -601,6 +630,17 @@ namespace ProiectASP.Data.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("ProiectASP.Models.Notification", b =>
+                {
+                    b.HasOne("ProiectASP.Models.ApplicationUser", "User")
+                        .WithMany("Notifications")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("ProiectASP.Models.Post", b =>
                 {
                     b.HasOne("ProiectASP.Models.Group", "Group")
@@ -655,6 +695,8 @@ namespace ProiectASP.Data.Migrations
                     b.Navigation("Likes");
 
                     b.Navigation("Messages");
+
+                    b.Navigation("Notifications");
 
                     b.Navigation("Posts");
 
